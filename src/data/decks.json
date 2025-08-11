@@ -3,6 +3,31 @@
   "edison": [],
   "tengu": [
     {
+      "title": "Agent",
+      "imageUrl": "agent.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17681528"
+    },
+    {
+      "title": "Fabled Chaos",
+      "imageUrl": "fabled-chaos.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18323024"
+    },
+    {
+      "title": "Hero Beat",
+      "imageUrl": "hero-beat.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17713344"
+    },
+    {
+      "title": "Mist Valley",
+      "imageUrl": "mist-valley.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18318745"
+    },
+    {
+      "title": "Scrap",
+      "imageUrl": "scrap.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17681625"
+    },
+    {
       "title": "X-Saber",
       "imageUrl": "x-saber.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=16050059"
