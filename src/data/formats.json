@@ -1,0 +1,27 @@
+[
+  {
+    "id": "goat",
+    "title": "GOAT",
+    "logoUrl": "/images/formats/goat.jpg"
+  },
+  {
+    "id": "edison",
+    "title": "Edison",
+    "logoUrl": "/images/formats/edison.jpg"
+  },
+  {
+    "id": "tengu",
+    "title": "Tengu",
+    "logoUrl": "/images/formats/tengu.jpg"
+  },
+  {
+    "id": "hat",
+    "title": "HAT",
+    "logoUrl": "/images/formats/hat.jpg"
+  },
+  {
+    "id": "modern",
+    "title": "Modern",
+    "logoUrl": "/images/formats/modern.jpg"
+  }
+]

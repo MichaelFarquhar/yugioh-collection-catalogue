@@ -1,0 +1,44 @@
+---
+import { Image } from 'astro:assets'
+import DeckCard from './DeckCard.astro'
+
+interface Deck {
+  title: string
+  imageUrl: string
+  linkUrl: string
+}
+
+interface Props {
+  title: string
+  decks: Deck[]
+  logoUrl: string
+  isCollapsed?: boolean
+}
+
+const { title, decks, logoUrl, isCollapsed = false } = Astro.props
+---
+
+<div class="mb-8" x-data=`{ open: ${!isCollapsed} }`>
+  <div
+    class="bg-surface p-4 rounded-lg shadow-lg flex items-center justify-between mb-4 cursor-pointer"
+    @click="open = !open"
+  >
+    <div class="flex items-center">
+      <Image src={logoUrl} alt={title} width={32} height={32} class="w-8 h-8 mr-4 rounded-md" />
+      <h2 class="text-2xl font-bold">{title}</h2>
+      <span class="ml-4 bg-background text-text-secondary text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full"
+        >{decks.length}</span
+      >
+    </div>
+    <img
+      src="/icons/chevron-down.svg"
+      alt="Collapse"
+      class="w-5 h-5 transform transition-transform duration-300 filter invert"
+      :class="{ 'rotate-180': open }"
+    />
+  </div>
+
+  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4" x-show="open" x-transition>
+    {decks.map((deck) => <DeckCard title={deck.title} imageUrl={deck.imageUrl} linkUrl={deck.linkUrl} />)}
+  </div>
+</div>

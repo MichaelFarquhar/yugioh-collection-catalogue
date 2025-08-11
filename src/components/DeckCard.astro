@@ -1,0 +1,27 @@
+---
+import { Image } from 'astro:assets'
+
+interface Props {
+  title: string
+  imageUrl: string
+  linkUrl: string
+}
+
+const { title, imageUrl, linkUrl } = Astro.props
+const imagePath = `/images/decks/${imageUrl}`
+---
+
+<a href={linkUrl} class="group transition-all duration-300" target="_blank">
+  <div
+    class="overflow-hidden rounded-lg border-2 border-surface group-hover:border-primary transition-all duration-300"
+  >
+    <Image
+      src={imagePath}
+      alt={title}
+      width={180}
+      height={270}
+      class="w-full h-auto transform transition-transform duration-300 group-hover:scale-110"
+    />
+  </div>
+  <p class="text-center mt-2 text-text group-hover:text-primary transition-colors duration-300 text-lg">{title}</p>
+</a>
