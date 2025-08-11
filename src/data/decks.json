@@ -3,7 +3,6 @@
   "edison": [],
   "tengu": [
     {
-      "id": "deck-7",
       "title": "X-Saber",
       "imageUrl": "x-saber.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=16050059"
@@ -12,10 +11,54 @@
   "hat": [],
   "modern": [
     {
-      "id": "ninja",
       "title": "Ninja",
       "imageUrl": "ninja.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17108237"
+    },
+    {
+      "title": "Six Samurai",
+      "imageUrl": "six-samurai.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18322755"
+    },
+    {
+      "title": "Monarchs",
+      "imageUrl": "monarchs.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18137462"
+    },
+    {
+      "title": "True Draco",
+      "imageUrl": "true-draco.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17865997"
+    },
+    {
+      "title": "Despia Darklord",
+      "imageUrl": "despia-darklord.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18131264"
+    },
+    {
+      "title": "Ancient Warriors",
+      "imageUrl": "ancient-warriors.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17328952"
+    },
+    {
+      "title": "Scareclaw",
+      "imageUrl": "scareclaw.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17866182"
+    },
+    {
+      "title": "RDA Centurion",
+      "imageUrl": "rda-centurion.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18103545"
+    },
+    {
+      "title": "Invoked Shaddoll",
+      "imageUrl": "invoked-shaddoll.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18112195"
+    },
+    {
+      "title": "Witchcrafter",
+      "imageUrl": "witchcrafter.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17365058"
     }
   ]
 }
