@@ -1,6 +1,47 @@
 {
   "goat": [],
-  "edison": [],
+  "edison": [
+    {
+      "title": "Ancient Machina",
+      "imageUrl": "ancient-machina.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17863053"
+    },
+    {
+      "title": "Blackwing",
+      "imageUrl": "blackwing.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18077392"
+    },
+    {
+      "title": "Gravekeepers",
+      "imageUrl": "gravekeepers.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18104445"
+    },
+    {
+      "title": "Ojama",
+      "imageUrl": "ojama.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18323209"
+    },
+    {
+      "title": "Quickdraw Plant",
+      "imageUrl": "quickdraw.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18325517"
+    },
+    {
+      "title": "Six Samurai",
+      "imageUrl": "six-samurai-edison.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17270643"
+    },
+    {
+      "title": "Skull Servant",
+      "imageUrl": "skull-servant.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18310554"
+    },
+    {
+      "title": "TeleDAD",
+      "imageUrl": "teledad.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18324794"
+    }
+  ],
   "tengu": [
     {
       "title": "Agent",
