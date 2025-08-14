@@ -74,7 +74,98 @@
       "linkUrl": "https://www.duelingbook.com/deck?id=16050059"
     }
   ],
-  "hat": [],
+  "hat": [
+    {
+      "title": "Lightsworn",
+      "imageUrl": "lightsworn.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17106511"
+    },
+    {
+      "title": "Constellar",
+      "imageUrl": "constellar.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17108745"
+    },
+    {
+      "title": "Dark World",
+      "imageUrl": "dark-world.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17106314"
+    },
+    {
+      "title": "H.A.T",
+      "imageUrl": "hat.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17175026"
+    },
+    {
+      "title": "Gusto",
+      "imageUrl": "gusto.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17154127"
+    },
+    {
+      "title": "Evilswarm",
+      "imageUrl": "evilswarm.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17523020"
+    },
+    {
+      "title": "Inzektor",
+      "imageUrl": "inzektor.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17872118"
+    },
+    {
+      "title": "Gishki",
+      "imageUrl": "gishki.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17875583"
+    },
+    {
+      "title": "Junk Quasar",
+      "imageUrl": "junk-quasar.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18095549"
+    },
+    {
+      "title": "Cyber Drag Artifact",
+      "imageUrl": "cyber-artifact.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17875090"
+    },
+    {
+      "title": "Dragunity",
+      "imageUrl": "dragunity.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18287455"
+    },
+    {
+      "title": "Fire King",
+      "imageUrl": "fire-king.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18303701"
+    },
+    {
+      "title": "Spellbook",
+      "imageUrl": "spellbook.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17874581"
+    },
+    {
+      "title": "Mermail",
+      "imageUrl": "mermail.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17678610"
+    },
+    {
+      "title": "Karakuri Geargia",
+      "imageUrl": "karakuri-geargia.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17672246"
+    },
+    {
+      "title": "Mythic Ruler",
+      "imageUrl": "mythic-ruler.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17517192"
+    },
+    {
+      "title": "Bujin",
+      "imageUrl": "bujin.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17713726"
+    },
+    {
+      "title": "Harpie",
+      "imageUrl": "harpie.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18338835"
+    }
+  ],
   "modern": [
     {
       "title": "Ninja",
