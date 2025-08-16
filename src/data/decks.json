@@ -40,6 +40,11 @@
       "title": "TeleDAD",
       "imageUrl": "teledad.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18324794"
+    },
+    {
+      "title": "Chaos Relinquished",
+      "imageUrl": "relinquished.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18348055"
     }
   ],
   "tengu": [
@@ -174,6 +179,11 @@
       "title": "Madolche",
       "imageUrl": "madolche.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18339074"
+    },
+    {
+      "title": "Battlin' Boxer",
+      "imageUrl": "battlin-boxer.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18346180"
     }
   ],
   "modern": [
