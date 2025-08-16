@@ -1,5 +1,111 @@
 {
-  "goat": [],
+  "goat": [
+    {
+      "title": "Ben Kei OTK",
+      "imageUrl": "ben-kei.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17877236"
+    },
+    {
+      "title": "Blue Eyes",
+      "imageUrl": "blue-eyes.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18177792"
+    },
+    {
+      "title": "Dark Paladin",
+      "imageUrl": "dark-paladin.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17195267"
+    },
+    {
+      "title": "Exodia",
+      "imageUrl": "exodia.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17705637"
+    },
+    {
+      "title": "Fairy Burn",
+      "imageUrl": "fairy-burn.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18335938"
+    },
+    {
+      "title": "Fire",
+      "imageUrl": "fire.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17705615"
+    },
+    {
+      "title": "Goat Control",
+      "imageUrl": "goat-control.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=16026040"
+    },
+    {
+      "title": "Gravekeeper",
+      "imageUrl": "gravekeeper-goat.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17338743"
+    },
+    {
+      "title": "Cold Wave Monarch",
+      "imageUrl": "monarch.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=16026061"
+    },
+    {
+      "title": "Ninja Aggro",
+      "imageUrl": "ninja-aggro.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17912708"
+    },
+    {
+      "title": "Shinato",
+      "imageUrl": "shinato.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17383992"
+    },
+    {
+      "title": "Warriors",
+      "imageUrl": "warriors.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=16074667"
+    },
+    {
+      "title": "Water",
+      "imageUrl": "water.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=16400255"
+    },
+    {
+      "title": "XYZ",
+      "imageUrl": "xyz.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17354489"
+    },
+    {
+      "title": "Warrior of Zera",
+      "imageUrl": "warrior-of-zera.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18330371"
+    },
+    {
+      "title": "Zombie",
+      "imageUrl": "zombie.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17397965"
+    },
+    {
+      "title": "Dark Necroplasmer",
+      "imageUrl": "dark-necroplasmer.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18344718"
+    },
+    {
+      "title": "Emissary Zombie",
+      "imageUrl": "emissary-zombie.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18348523"
+    },
+    {
+      "title": "Insect Monarchy",
+      "imageUrl": "insect-monarchy.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18350550"
+    },
+    {
+      "title": "King of Beasts",
+      "imageUrl": "king-of-beasts.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18336716"
+    },
+    {
+      "title": "PACMAN",
+      "imageUrl": "pacman.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18351309"
+    }
+  ],
   "edison": [
     {
       "title": "Ancient Machina",
