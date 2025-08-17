@@ -14,8 +14,14 @@ import decks from '../data/decks.json'
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
   </head>
   <body class="bg-background text-text">
+    <header class="bg-surface border-b-4 border-accent">
+      <div class="container mx-auto px-4 py-6">
+        <a href="/" class="flex items-center gap-4">
+          <h1 class="text-4xl font-bold">Michael's Yugioh Decks</h1>
+        </a>
+      </div>
+    </header>
     <main class="container mx-auto p-4 mt-8">
-      <h1 class="text-4xl font-bold text-center mb-12">Michael's Yugioh Decks</h1>
       {
         formats.map((format) => (
           <FormatSection
