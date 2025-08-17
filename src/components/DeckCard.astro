@@ -1,5 +1,6 @@
 ---
 import { Image } from 'astro:assets'
+import DeckCardImage from './DeckCardImage.astro'
 
 interface Props {
   title: string
@@ -15,13 +16,7 @@ const imagePath = `/images/decks/${imageUrl}`
   <div
     class="overflow-hidden rounded-lg border-2 border-surface group-hover:border-primary transition-all duration-300"
   >
-    <Image
-      src={imagePath}
-      alt={title}
-      width={180}
-      height={270}
-      class="w-full h-auto transform transition-transform duration-300 group-hover:scale-110"
-    />
+    <DeckCardImage src={imagePath} alt={title} width={230} height={230} />
   </div>
   <p class="text-center mt-2 text-text group-hover:text-primary transition-colors duration-300 text-lg">{title}</p>
 </a>
