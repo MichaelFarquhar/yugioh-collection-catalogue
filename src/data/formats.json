@@ -6,6 +6,12 @@
     "banlist": "https://cardcluster.com/format/tcg/april-2005-goat"
   },
   {
+    "id": "perfectCircle",
+    "title": "Perfect Circle",
+    "logoUrl": "/images/formats/perfect-circle.jpg",
+    "banlist": "https://cardcluster.com/format/tcg/september-2007"
+  },
+  {
     "id": "edison",
     "title": "Edison",
     "logoUrl": "/images/formats/edison.jpg",
