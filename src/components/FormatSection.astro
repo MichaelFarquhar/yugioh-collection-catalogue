@@ -1,6 +1,7 @@
 ---
 import { Image } from 'astro:assets'
 import DeckCard from './DeckCard.astro'
+import ActionButton from './ActionButton.astro'
 
 interface Deck {
   title: string
@@ -12,10 +13,11 @@ interface Props {
   title: string
   decks: Deck[]
   logoUrl: string
+  banlist: string
   isCollapsed?: boolean
 }
 
-const { title, decks, logoUrl, isCollapsed = false } = Astro.props
+const { title, decks, logoUrl, banlist, isCollapsed = false } = Astro.props
 ---
 
 <div class="mb-8" x-data=`{ open: ${!isCollapsed} }`>
@@ -30,12 +32,32 @@ const { title, decks, logoUrl, isCollapsed = false } = Astro.props
         >{decks.length}</span
       >
     </div>
-    <img
-      src="/icons/chevron-down.svg"
-      alt="Collapse"
-      class="w-5 h-5 transform transition-transform duration-300 filter invert"
-      :class="{ 'rotate-180': open }"
-    />
+    <div class="flex items-center">
+      {
+        banlist && (
+          <ActionButton
+            href={banlist}
+            tooltip="View Banlist"
+            ariaLabel="View Banlist"
+            class="mr-4 p-1"
+            x-on:click.stop
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="w-6 h-6 text-text-secondary">
+              <path
+                fill="currentColor"
+                d="M16 3.667C9.19 3.667 3.667 9.187 3.667 16S9.19 28.333 16 28.333c6.812 0 12.333-5.52 12.333-12.333S22.813 3.667 16 3.667m0 3c1.85 0 3.572.548 5.024 1.48L8.147 21.024A9.26 9.26 0 0 1 6.667 16c0-5.146 4.187-9.333 9.333-9.333m0 18.666a9.27 9.27 0 0 1-5.024-1.48l12.876-12.877A9.26 9.26 0 0 1 25.332 16c0 5.146-4.186 9.333-9.332 9.333"
+              />
+            </svg>
+          </ActionButton>
+        )
+      }
+      <img
+        src="/icons/chevron-down.svg"
+        alt="Collapse"
+        class="w-5 h-5 transform transition-transform duration-300 filter invert"
+        :class="{ 'rotate-180': open }"
+      />
+    </div>
   </div>
 
   <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4" x-show="open" x-transition>

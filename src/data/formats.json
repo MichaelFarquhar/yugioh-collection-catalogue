@@ -2,26 +2,31 @@
   {
     "id": "goat",
     "title": "GOAT",
-    "logoUrl": "/images/formats/goat.jpg"
+    "logoUrl": "/images/formats/goat.jpg",
+    "banlist": "https://cardcluster.com/format/tcg/april-2005-goat"
   },
   {
     "id": "edison",
     "title": "Edison",
-    "logoUrl": "/images/formats/edison.jpg"
+    "logoUrl": "/images/formats/edison.jpg",
+    "banlist": "https://cardcluster.com/format/tcg/march-2010-edison"
   },
   {
     "id": "tengu",
     "title": "Tengu",
-    "logoUrl": "/images/formats/tengu.jpg"
+    "logoUrl": "/images/formats/tengu.jpg",
+    "banlist": "https://cardcluster.com/format/tcg/september-2011-tengu-plant"
   },
   {
     "id": "hat",
     "title": "HAT",
-    "logoUrl": "/images/formats/hat.jpg"
+    "logoUrl": "/images/formats/hat.jpg",
+    "banlist": "https://cardcluster.com/format/tcg/april-2014-hat"
   },
   {
     "id": "modern",
     "title": "Modern",
-    "logoUrl": "/images/formats/modern.jpg"
+    "logoUrl": "/images/formats/modern.jpg",
+    "banlist": "https://www.yugioh-card.com/en/limited/"
   }
 ]
