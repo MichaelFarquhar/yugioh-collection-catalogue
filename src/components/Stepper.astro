@@ -1,0 +1,129 @@
+---
+import formats from '../data/formats.json'
+---
+
+<nav
+  id="format-stepper"
+  class="fixed top-[8rem] left-4 z-50 flex flex-col items-start gap-0 py-8 px-2 bg-transparent hidden lg:flex"
+>
+  <div class="relative flex flex-col items-start w-full h-full ml-2">
+    {
+      formats.map((format, idx) => (
+        <div class="flex flex-col items-start" style="min-height: 3.5rem;">
+          {/* Dot */}
+          <button
+            type="button"
+            class="stepper-dot flex items-center group relative z-10"
+            data-anchor={format.id}
+            aria-label={format.title}
+            style="margin-bottom: 0;"
+          >
+            <span
+              class="w-5 h-5 rounded-full border-2 border-accent transition-shadow duration-200 stepper-dot-inner bg-transparent flex-shrink-0"
+              style="position:relative; background:transparent;"
+            />
+            <span class="ml-4 text-white text-base font-bold whitespace-nowrap hidden 2xl:inline stepper-label">
+              {format.title}
+            </span>
+          </button>
+          {/* Vertical line between dots, except after last dot */}
+          {idx < formats.length - 1 && <div class="ml-2 h-8 w-1 bg-accent/40 rounded-full stepper-line" />}
+        </div>
+      ))
+    }
+  </div>
+</nav>
+
+<style>
+  .stepper-dot {
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+  }
+  .stepper-dot-inner {
+    background: transparent;
+    border-color: #f97316;
+  }
+  .stepper-dot-inner.active {
+    background: #f97316 !important;
+    border-color: #f97316;
+    box-shadow: 0 0 0 4px #f9741615;
+  }
+  .stepper-label {
+    color: #fff;
+  }
+  .stepper-line {
+    background: #f97316;
+    opacity: 0.3;
+    pointer-events: none;
+  }
+</style>
+
+<script is:inline>
+  document.addEventListener('DOMContentLoaded', () => {
+    const dots = document.querySelectorAll('#format-stepper .stepper-dot')
+    const dotInners = document.querySelectorAll('#format-stepper .stepper-dot-inner')
+    const anchors = Array.from(dots).map((dot) => dot.dataset.anchor)
+    const sections = anchors.map((id) => document.getElementById(id))
+
+    // Use Intersection Observer to track which section is most in view
+    let activeIdx = 0
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: Array.from({ length: 11 }, (_, i) => i / 10), // [0, 0.1, ..., 1]
+    }
+    const sectionStates = new Array(sections.length).fill(0)
+
+    function updateActiveDot() {
+      // Find the section with the highest intersection ratio
+      let maxRatio = 0
+      let maxIdx = 0
+      for (let i = 0; i < sectionStates.length; i++) {
+        if (sectionStates[i] > maxRatio) {
+          maxRatio = sectionStates[i]
+          maxIdx = i
+        }
+      }
+      dotInners.forEach((dot, i) => {
+        if (i === maxIdx && maxRatio > 0) {
+          dot.classList.add('active')
+        } else {
+          dot.classList.remove('active')
+        }
+      })
+    }
+
+    const observer = new window.IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        const idx = sections.indexOf(entry.target)
+        if (idx !== -1) {
+          sectionStates[idx] = entry.intersectionRatio
+        }
+      })
+      updateActiveDot()
+    }, observerOptions)
+
+    sections.forEach((section) => {
+      if (section) observer.observe(section)
+    })
+
+    // Scroll to section on dot click
+    dots.forEach((dot, i) => {
+      dot.addEventListener('click', (e) => {
+        e.preventDefault()
+        const anchor = dot.dataset.anchor
+        const el = document.getElementById(anchor)
+        if (el) {
+          el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+        }
+      })
+    })
+  })
+</script>

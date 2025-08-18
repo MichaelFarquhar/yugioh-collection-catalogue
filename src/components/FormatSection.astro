@@ -10,6 +10,7 @@ interface Deck {
 }
 
 interface Props {
+  id: string
   title: string
   decks: Deck[]
   logoUrl: string
@@ -17,10 +18,10 @@ interface Props {
   isCollapsed?: boolean
 }
 
-const { title, decks, logoUrl, banlist, isCollapsed = false } = Astro.props
+const { id, title, decks, logoUrl, banlist, isCollapsed = false } = Astro.props
 ---
 
-<div class="mb-8" x-data=`{ open: ${!isCollapsed} }`>
+<div id={id} class="mb-8 pt-8" x-data=`{ open: ${!isCollapsed} }`>
   <div
     class="bg-surface p-4 rounded-lg shadow-lg flex items-center justify-between mb-4 cursor-pointer"
     @click="open = !open"
@@ -35,13 +36,7 @@ const { title, decks, logoUrl, banlist, isCollapsed = false } = Astro.props
     <div class="flex items-center">
       {
         banlist && (
-          <ActionButton
-            href={banlist}
-            tooltip="View Banlist"
-            ariaLabel="View Banlist"
-            class="mr-4 p-1"
-            x-on:click.stop
-          >
+          <ActionButton href={banlist} tooltip="View Banlist" ariaLabel="View Banlist" class="mr-4 p-1" x-on:click.stop>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="w-6 h-6 text-text-secondary">
               <path
                 fill="currentColor"

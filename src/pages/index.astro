@@ -2,6 +2,7 @@
 import FormatSection from '../components/FormatSection.astro'
 import formats from '../data/formats.json'
 import decks from '../data/decks.json'
+import Stepper from '../components/Stepper.astro'
 ---
 
 <html lang="en">
@@ -21,10 +22,12 @@ import decks from '../data/decks.json'
         </a>
       </div>
     </header>
-    <main class="container mx-auto p-4 mt-8">
+    <Stepper />
+    <main class="container mx-auto p-4">
       {
         formats.map((format) => (
           <FormatSection
+            id={format.id}
             title={format.title}
             logoUrl={format.logoUrl}
             decks={decks[format.id as keyof typeof decks]}
