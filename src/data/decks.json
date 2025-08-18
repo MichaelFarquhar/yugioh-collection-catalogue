@@ -319,6 +319,18 @@
       "linkUrl": "https://www.duelingbook.com/deck?id=18346180"
     }
   ],
+  "toss": [
+    {
+      "title": "Orcust",
+      "imageUrl": "orcust.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18358271"
+    },
+    {
+      "title": "Salamangreat",
+      "imageUrl": "salamangreat.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18358188"
+    }
+  ],
   "modern": [
     {
       "title": "Ninja",
