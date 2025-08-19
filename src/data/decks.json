@@ -31,8 +31,8 @@
       "linkUrl": "https://www.duelingbook.com/deck?id=17705615"
     },
     {
-      "title": "Goat Control",
-      "imageUrl": "goat-control.jpg",
+      "title": "Phoenix Control",
+      "imageUrl": "phoenix-control.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=16026040"
     },
     {
@@ -178,6 +178,11 @@
       "title": "Destiny End Dragoon",
       "imageUrl": "destiny-end-dragoon.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18356722"
+    },
+    {
+      "title": "Volcanic Garden",
+      "imageUrl": "volcanic-garden.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18363365"
     }
   ],
   "tengu": [
