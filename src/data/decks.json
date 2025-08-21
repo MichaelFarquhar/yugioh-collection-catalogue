@@ -104,6 +104,21 @@
       "title": "PACMAN",
       "imageUrl": "pacman.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18351309"
+    },
+    {
+      "title": "Beastdown",
+      "imageUrl": "beastdown.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18373857"
+    },
+    {
+      "title": "Gearfried",
+      "imageUrl": "gearfried.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18369234"
+    },
+    {
+      "title": "Normal",
+      "imageUrl": "normal.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17183904"
     }
   ],
   "perfectCircle": [
@@ -220,6 +235,16 @@
       "title": "X-Saber",
       "imageUrl": "x-saber.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=16050059"
+    },
+    {
+      "title": "Cloudian Plant",
+      "imageUrl": "cloudian-plant.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18373987"
+    },
+    {
+      "title": "Six Samurai",
+      "imageUrl": "six-samurai-tengu.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18377133"
     }
   ],
   "hat": [
