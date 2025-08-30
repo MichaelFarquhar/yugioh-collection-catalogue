@@ -352,6 +352,11 @@
       "title": "Battlin' Boxer",
       "imageUrl": "battlin-boxer.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18346180"
+    },
+    {
+      "title": "Fire Fist",
+      "imageUrl": "fire-fist.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18383334"
     }
   ],
   "toss": [
@@ -421,6 +426,26 @@
       "title": "Witchcrafter",
       "imageUrl": "witchcrafter.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17365058"
+    },
+    {
+      "title": "8 Axis Kaiju",
+      "imageUrl": "8-axis-kaiju.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18420981"
+    },
+    {
+      "title": "Nekroz",
+      "imageUrl": "nekroz.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18397991"
+    },
+    {
+      "title": "Ritual Beast",
+      "imageUrl": "ritual-beast.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18417147"
+    },
+    {
+      "title": "Swordsoul Tenyi",
+      "imageUrl": "swordsoul-tenyi.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18400260"
     }
   ]
 }
