@@ -119,6 +119,11 @@
       "title": "Normal",
       "imageUrl": "normal.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17183904"
+    },
+    {
+      "title": "The Creator",
+      "imageUrl": "the-creator.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18453758"
     }
   ],
   "perfectCircle": [
@@ -446,6 +451,11 @@
       "title": "Swordsoul Tenyi",
       "imageUrl": "swordsoul-tenyi.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18400260"
+    },
+    {
+      "title": "Mikanko",
+      "imageUrl": "mikanko.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18448154"
     }
   ]
 }
