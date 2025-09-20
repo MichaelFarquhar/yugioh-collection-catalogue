@@ -150,19 +150,9 @@
   ],
   "edison": [
     {
-      "title": "Ancient Machina",
-      "imageUrl": "ancient-machina.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17863053"
-    },
-    {
       "title": "Blackwing",
       "imageUrl": "blackwing.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18077392"
-    },
-    {
-      "title": "Gravekeepers",
-      "imageUrl": "gravekeepers.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18104445"
     },
     {
       "title": "Ojama",
@@ -173,11 +163,6 @@
       "title": "Quickdraw Plant",
       "imageUrl": "quickdraw.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18325517"
-    },
-    {
-      "title": "Six Samurai",
-      "imageUrl": "six-samurai-edison.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17270643"
     },
     {
       "title": "Skull Servant",
@@ -456,6 +441,41 @@
       "title": "Voiceless Voice",
       "imageUrl": "voiceless-voice.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18473223"
+    },
+    {
+      "title": "Dinomorphia",
+      "imageUrl": "dinomorphia.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18497344"
+    },
+    {
+      "title": "Floowandereeze",
+      "imageUrl": "floowandereeze.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18437443"
+    },
+    {
+      "title": "Dragon Ruler",
+      "imageUrl": "dragon-ruler.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18480762"
+    },
+    {
+      "title": "Dragonmaid Dracotail",
+      "imageUrl": "dragonmaid-dracotail.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18542409"
+    },
+    {
+      "title": "Mimighoul",
+      "imageUrl": "mimighoul.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18463421"
+    },
+    {
+      "title": "Rescue-Ace",
+      "imageUrl": "rescue-ace.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18548504"
+    },
+    {
+      "title": "Tachyon",
+      "imageUrl": "tachyon.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18541926"
     }
   ]
 }
