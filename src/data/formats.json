@@ -30,12 +30,6 @@
     "banlist": "https://cardcluster.com/format/tcg/april-2014-hat"
   },
   {
-    "id": "toss",
-    "title": "TOSS",
-    "logoUrl": "/images/formats/toss.jpg",
-    "banlist": "https://cardcluster.com/format/tcg/july-2019-toss"
-  },
-  {
     "id": "modern",
     "title": "Modern",
     "logoUrl": "/images/formats/modern.jpg",
