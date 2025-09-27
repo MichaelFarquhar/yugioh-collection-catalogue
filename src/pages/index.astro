@@ -33,6 +33,7 @@ import Stepper from '../components/Stepper.astro'
             decks={decks[format.id as keyof typeof decks]}
             isCollapsed={decks[format.id as keyof typeof decks].length === 0}
             banlist={format.banlist}
+            cardPool={format.cardPool}
           />
         ))
       }

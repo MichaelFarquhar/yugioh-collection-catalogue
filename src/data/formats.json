@@ -3,36 +3,42 @@
     "id": "goat",
     "title": "GOAT",
     "logoUrl": "/images/formats/goat.jpg",
-    "banlist": "https://cardcluster.com/format/tcg/april-2005-goat"
+    "banlist": "https://cardcluster.com/format/tcg/april-2005-goat",
+    "cardPool": "https://formatlibrary.com/cards?format=goat"
   },
   {
     "id": "perfectCircle",
     "title": "P. Circle",
     "logoUrl": "/images/formats/perfect-circle.jpg",
-    "banlist": "https://cardcluster.com/format/tcg/september-2007"
+    "banlist": "https://cardcluster.com/format/tcg/september-2007",
+    "cardPool": "https://formatlibrary.com/cards?format=perfect-circle"
   },
   {
     "id": "edison",
     "title": "Edison",
     "logoUrl": "/images/formats/edison.jpg",
-    "banlist": "https://cardcluster.com/format/tcg/march-2010-edison"
+    "banlist": "https://cardcluster.com/format/tcg/march-2010-edison",
+    "cardPool": "https://formatlibrary.com/cards?format=edison"
   },
   {
     "id": "tengu",
     "title": "Tengu",
     "logoUrl": "/images/formats/tengu.jpg",
-    "banlist": "https://cardcluster.com/format/tcg/september-2011-tengu-plant"
+    "banlist": "https://cardcluster.com/format/tcg/september-2011-tengu-plant",
+    "cardPool": "https://formatlibrary.com/cards?format=tengu"
   },
   {
     "id": "hat",
     "title": "HAT",
     "logoUrl": "/images/formats/hat.jpg",
-    "banlist": "https://cardcluster.com/format/tcg/april-2014-hat"
+    "banlist": "https://cardcluster.com/format/tcg/april-2014-hat",
+    "cardPool": "https://formatlibrary.com/cards?format=hat"
   },
   {
     "id": "modern",
     "title": "Modern",
     "logoUrl": "/images/formats/modern.jpg",
-    "banlist": "https://www.yugioh-card.com/en/limited/"
+    "banlist": "https://www.yugioh-card.com/en/limited/",
+    "cardPool": "https://formatlibrary.com/cards?format=modern"
   }
 ]

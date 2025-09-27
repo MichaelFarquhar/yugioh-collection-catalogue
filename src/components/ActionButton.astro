@@ -6,7 +6,7 @@ interface Props extends Omit<HTMLAttributes<'a'>, 'type'> {
   tooltip: string
   ariaLabel: string
   class?: string
-  type?: "button" | "submit" | "reset";
+  type?: 'button' | 'submit' | 'reset'
 }
 
 const { href, tooltip, ariaLabel, class: className, type, ...rest } = Astro.props
@@ -20,13 +20,14 @@ const Tag = href ? 'a' : 'button'
     rel={href ? 'noopener noreferrer' : undefined}
     aria-label={ariaLabel}
     class:list={['w-8 h-8 rounded-full bg-background flex items-center justify-center', className]}
-    type={Tag === 'button' ? (type || 'button') : undefined}
+    type={Tag === 'button' ? type || 'button' : undefined}
     {...rest}
   >
     <slot />
   </Tag>
   <div
-    class="absolute z-10 bottom-full right-0 translate-x-2 mb-2 w-max bg-background text-text-secondary text-xs rounded py-1 px-2 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity"
+    class="absolute z-10 bottom-full mb-2 bg-background text-text-secondary text-xs rounded py-1 px-2 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap"
+    style="left: 50%; transform: translateX(-50%);"
   >
     {tooltip}
   </div>
