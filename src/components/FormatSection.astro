@@ -21,7 +21,7 @@ interface Props {
 const { id, title, decks, logoUrl, banlist, isCollapsed = false } = Astro.props
 ---
 
-<div id={id} class="mb-8 pt-8" x-data=`{ open: ${!isCollapsed} }`>
+<div id={id} class="pt-4" x-data=`{ open: ${!isCollapsed} }`>
   <div
     class="bg-surface p-4 rounded-lg shadow-lg flex items-center justify-between mb-4 cursor-pointer"
     @click="open = !open"
@@ -55,7 +55,7 @@ const { id, title, decks, logoUrl, banlist, isCollapsed = false } = Astro.props
     </div>
   </div>
 
-  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4" x-show="open" x-transition>
+  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mb-8" x-show="open" x-transition>
     {decks.map((deck) => <DeckCard title={deck.title} imageUrl={deck.imageUrl} linkUrl={deck.linkUrl} />)}
   </div>
 </div>
