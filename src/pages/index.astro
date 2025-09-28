@@ -29,7 +29,7 @@ import Stepper from '../components/Stepper.astro'
           <FormatSection
             id={format.id}
             title={format.title}
-            logoUrl={format.logoUrl}
+            image={format.image}
             decks={decks[format.id as keyof typeof decks]}
             isCollapsed={decks[format.id as keyof typeof decks].length === 0}
             banlist={format.banlist}

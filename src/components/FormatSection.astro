@@ -14,13 +14,13 @@ interface Props {
   id: string
   title: string
   decks: Deck[]
-  logoUrl: string
+  image: string
   banlist: string
   cardPool: string
   isCollapsed?: boolean
 }
 
-const { id, title, decks, logoUrl, banlist, cardPool, isCollapsed = false } = Astro.props
+const { id, title, decks, image, banlist, cardPool, isCollapsed = false } = Astro.props
 ---
 
 <div id={id} class="pt-4" x-data=`{ open: ${!isCollapsed} }`>
@@ -29,7 +29,7 @@ const { id, title, decks, logoUrl, banlist, cardPool, isCollapsed = false } = As
     @click="open = !open"
   >
     <div class="flex items-center">
-      <Image src={logoUrl} alt={title} width={32} height={32} class="w-8 h-8 mr-4 rounded-md" />
+      <Image src={`/images/formats/${image}`} alt={title} width={32} height={32} class="w-8 h-8 mr-4 rounded-md" />
       <h2 class="text-2xl font-bold">{title}</h2>
       <span class="ml-4 bg-background text-text-secondary text-xs font-semibold mr-2 px-2.5 py-0.5 rounded-full"
         >{decks.length}</span
