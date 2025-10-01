@@ -2,32 +2,23 @@
 import formats from '../data/formats.json'
 ---
 
-<nav
-  id="format-stepper"
-  class="fixed top-[8rem] left-4 z-50 flex flex-col items-start gap-0 py-8 px-2 bg-transparent hidden lg:flex"
->
-  <div class="relative flex flex-col items-start w-full h-full ml-2">
+<nav id="format-stepper" class="fixed top-[8rem] left-4 z-50 hidden lg:flex flex-col items-start gap-0 py-8 px-2">
+  <div class="relative ml-2 flex h-full w-full flex-col items-start">
     {
       formats.map((format, idx) => (
-        <div class="flex flex-col items-start" style="min-height: 3.5rem;">
+        <div class="flex min-h-[3.5rem] flex-col items-start">
           {/* Dot */}
           <button
             type="button"
-            class="stepper-dot flex items-center group relative z-10"
+            class="stepper-dot relative z-10 flex w-full cursor-pointer items-center justify-start border-0 bg-transparent p-0 outline-none"
             data-anchor={format.id}
             aria-label={format.title}
-            style="margin-bottom: 0;"
           >
-            <span
-              class="w-5 h-5 rounded-full border-2 border-accent transition-shadow duration-200 stepper-dot-inner bg-transparent flex-shrink-0"
-              style="position:relative; background:transparent;"
-            />
-            <span class="ml-4 text-white text-base font-bold whitespace-nowrap hidden 2xl:inline stepper-label">
-              {format.title}
-            </span>
+            <span class="stepper-dot-inner relative flex-shrink-0 rounded-full border-2 border-accent bg-transparent w-5 h-5 transition-shadow duration-200" />
+            <span class="ml-4 hidden whitespace-nowrap text-base font-bold text-white 2xl:inline">{format.title}</span>
           </button>
           {/* Vertical line between dots, except after last dot */}
-          {idx < formats.length - 1 && <div class="ml-2 h-8 w-1 bg-accent/40 rounded-full stepper-line" />}
+          {idx < formats.length - 1 && <div class="ml-2 h-8 w-1 rounded-full bg-accent/30 pointer-events-none" />}
         </div>
       ))
     }
@@ -35,33 +26,10 @@ import formats from '../data/formats.json'
 </nav>
 
 <style>
-  .stepper-dot {
-    align-items: center;
-    justify-content: flex-start;
-    width: 100%;
-    background: none;
-    border: none;
-    outline: none;
-    padding: 0;
-    margin: 0;
-    cursor: pointer;
-  }
-  .stepper-dot-inner {
-    background: transparent;
-    border-color: #f97316;
-  }
   .stepper-dot-inner.active {
     background: #f97316 !important;
     border-color: #f97316;
     box-shadow: 0 0 0 4px #f9741615;
-  }
-  .stepper-label {
-    color: #fff;
-  }
-  .stepper-line {
-    background: #f97316;
-    opacity: 0.3;
-    pointer-events: none;
   }
 </style>
 

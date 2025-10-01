@@ -3,6 +3,7 @@ import FormatSection from '../components/FormatSection.astro'
 import formats from '../data/formats.json'
 import decks from '../data/decks.json'
 import Stepper from '../components/Stepper.astro'
+import Header from '../components/Header.astro'
 ---
 
 <html lang="en">
@@ -15,13 +16,7 @@ import Stepper from '../components/Stepper.astro'
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
   </head>
   <body class="bg-background text-text">
-    <header class="bg-surface border-b-4 border-accent">
-      <div class="container mx-auto px-4 py-6">
-        <a href="/" class="flex items-center gap-4">
-          <h1 class="text-4xl font-bold">Michael's Yugioh Decks</h1>
-        </a>
-      </div>
-    </header>
+    <Header />
     <Stepper />
     <main class="container mx-auto py-8 px-4">
       {
