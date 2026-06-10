@@ -3,477 +3,570 @@
     {
       "title": "Ben Kei OTK",
       "imageUrl": "ben-kei.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17877236"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17877236",
+      "finished": false
     },
     {
       "title": "Blue Eyes",
       "imageUrl": "blue-eyes.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18177792"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18177792",
+      "finished": false
     },
     {
       "title": "Dark Paladin",
       "imageUrl": "dark-paladin.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17195267"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17195267",
+      "finished": false
     },
     {
       "title": "Exodia",
       "imageUrl": "exodia.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17705637"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17705637",
+      "finished": false
     },
     {
       "title": "Fairy Burn",
       "imageUrl": "fairy-burn.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18335938"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18335938",
+      "finished": false
     },
     {
       "title": "Fire",
       "imageUrl": "fire.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17705615"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17705615",
+      "finished": false
     },
     {
       "title": "Phoenix Control",
       "imageUrl": "phoenix-control.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=16026040"
+      "linkUrl": "https://www.duelingbook.com/deck?id=16026040",
+      "finished": false
     },
     {
       "title": "Gravekeeper",
       "imageUrl": "gravekeeper-goat.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17338743"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17338743",
+      "finished": false
     },
     {
       "title": "Cold Wave Monarch",
       "imageUrl": "monarch.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=16026061"
+      "linkUrl": "https://www.duelingbook.com/deck?id=16026061",
+      "finished": false
     },
     {
       "title": "Ninja Aggro",
       "imageUrl": "ninja-aggro.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17912708"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17912708",
+      "finished": false
     },
     {
       "title": "Shinato",
       "imageUrl": "shinato.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17383992"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17383992",
+      "finished": false
     },
     {
       "title": "Warriors",
       "imageUrl": "warriors.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=16074667"
+      "linkUrl": "https://www.duelingbook.com/deck?id=16074667",
+      "finished": false
     },
     {
       "title": "Water",
       "imageUrl": "water.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=16400255"
+      "linkUrl": "https://www.duelingbook.com/deck?id=16400255",
+      "finished": false
     },
     {
       "title": "XYZ",
       "imageUrl": "xyz.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17354489"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17354489",
+      "finished": false
     },
     {
       "title": "Warrior of Zera",
       "imageUrl": "warrior-of-zera.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18330371"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18330371",
+      "finished": false
     },
     {
       "title": "Zombie",
       "imageUrl": "zombie.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17397965"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17397965",
+      "finished": false
     },
     {
       "title": "Dark Necroplasmer",
       "imageUrl": "dark-necroplasmer.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18344718"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18344718",
+      "finished": false
     },
     {
       "title": "Emissary Zombie",
       "imageUrl": "emissary-zombie.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18348523"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18348523",
+      "finished": false
     },
     {
       "title": "Insect Monarchy",
       "imageUrl": "insect-monarchy.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18350550"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18350550",
+      "finished": false
     },
     {
       "title": "King of Beasts",
       "imageUrl": "king-of-beasts.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18336716"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18336716",
+      "finished": false
     },
     {
       "title": "PACMAN",
       "imageUrl": "pacman.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18351309"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18351309",
+      "finished": false
     },
     {
       "title": "Beastdown",
       "imageUrl": "beastdown.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18373857"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18373857",
+      "finished": false
     },
     {
       "title": "Gearfried",
       "imageUrl": "gearfried.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18369234"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18369234",
+      "finished": false
     },
     {
       "title": "Normal",
       "imageUrl": "normal.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17183904"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17183904",
+      "finished": false
     },
     {
       "title": "The Creator",
       "imageUrl": "the-creator.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18453758"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18453758",
+      "finished": false
     }
   ],
   "perfectCircle": [
     {
       "title": "Perfect Circle",
       "imageUrl": "perfect-circle.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18356962"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18356962",
+      "finished": false
     },
     {
       "title": "Diamond Dude Turbo",
       "imageUrl": "diamond-dude-turbo.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18357312"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18357312",
+      "finished": false
     },
     {
       "title": "Bazoo Machine",
       "imageUrl": "bazoo-machine.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18358808"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18358808",
+      "finished": false
     },
     {
       "title": "Zombie Return",
       "imageUrl": "zombie-return.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18358757"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18358757",
+      "finished": false
     }
   ],
   "edison": [
     {
       "title": "Blackwing",
       "imageUrl": "blackwing.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18077392"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18077392",
+      "finished": false
     },
     {
       "title": "Ojama",
       "imageUrl": "ojama.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18323209"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18323209",
+      "finished": false
     },
     {
       "title": "Quickdraw Plant",
       "imageUrl": "quickdraw.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18325517"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18325517",
+      "finished": false
     },
     {
       "title": "Skull Servant",
       "imageUrl": "skull-servant.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18310554"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18310554",
+      "finished": false
     },
     {
       "title": "TeleDAD",
       "imageUrl": "teledad.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18324794"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18324794",
+      "finished": false
     },
     {
       "title": "Chaos Relinquished",
       "imageUrl": "relinquished.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18348055"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18348055",
+      "finished": false
     },
     {
       "title": "Destiny End Dragoon",
       "imageUrl": "destiny-end-dragoon.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18356722"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18356722",
+      "finished": false
     },
     {
       "title": "Volcanic Garden",
       "imageUrl": "volcanic-garden.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18363365"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18363365",
+      "finished": false
     },
     {
       "title": "Gemini",
       "imageUrl": "gemini.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18365524"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18365524",
+      "finished": false
     }
   ],
   "tengu": [
     {
       "title": "Agent",
       "imageUrl": "agent.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17681528"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17681528",
+      "finished": false
     },
     {
       "title": "Fabled Chaos",
       "imageUrl": "fabled-chaos.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18323024"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18323024",
+      "finished": false
     },
     {
       "title": "Hero Beat",
       "imageUrl": "hero-beat.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17713344"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17713344",
+      "finished": false
     },
     {
       "title": "Mist Valley",
       "imageUrl": "mist-valley.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18318745"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18318745",
+      "finished": false
     },
     {
       "title": "Scrap",
       "imageUrl": "scrap.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17681625"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17681625",
+      "finished": false
     },
     {
       "title": "X-Saber",
       "imageUrl": "x-saber.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=16050059"
+      "linkUrl": "https://www.duelingbook.com/deck?id=16050059",
+      "finished": false
     },
     {
       "title": "Cloudian Plant",
       "imageUrl": "cloudian-plant.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18373987"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18373987",
+      "finished": false
     },
     {
       "title": "Six Samurai",
       "imageUrl": "six-samurai-tengu.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18377133"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18377133",
+      "finished": false
     },
     {
       "title": "Psychic",
       "imageUrl": "psychic.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18567550"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18567550",
+      "finished": false
     }
   ],
   "hat": [
     {
       "title": "Lightsworn",
       "imageUrl": "lightsworn.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17106511"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17106511",
+      "finished": false
     },
     {
       "title": "Constellar",
       "imageUrl": "constellar.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17108745"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17108745",
+      "finished": false
     },
     {
       "title": "Dark World",
       "imageUrl": "dark-world.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17106314"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17106314",
+      "finished": false
     },
     {
       "title": "H.A.T",
       "imageUrl": "hat.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17175026"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17175026",
+      "finished": false
     },
     {
       "title": "Gusto",
       "imageUrl": "gusto.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17154127"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17154127",
+      "finished": false
     },
     {
       "title": "Evilswarm",
       "imageUrl": "evilswarm.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17523020"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17523020",
+      "finished": false
     },
     {
       "title": "Inzektor",
       "imageUrl": "inzektor.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17872118"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17872118",
+      "finished": false
     },
     {
       "title": "Gishki",
       "imageUrl": "gishki.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17875583"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17875583",
+      "finished": false
     },
     {
       "title": "Junk Quasar",
       "imageUrl": "junk-quasar.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18095549"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18095549",
+      "finished": false
     },
     {
       "title": "Cyber Drag Artifact",
       "imageUrl": "cyber-artifact.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17875090"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17875090",
+      "finished": false
     },
     {
       "title": "Dragunity",
       "imageUrl": "dragunity.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18287455"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18287455",
+      "finished": false
     },
     {
       "title": "Fire King",
       "imageUrl": "fire-king.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18303701"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18303701",
+      "finished": false
     },
     {
       "title": "Spellbook",
       "imageUrl": "spellbook.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17874581"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17874581",
+      "finished": false
     },
     {
       "title": "Mermail",
       "imageUrl": "mermail.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17678610"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17678610",
+      "finished": false
     },
     {
       "title": "Karakuri Geargia",
       "imageUrl": "karakuri-geargia.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17672246"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17672246",
+      "finished": false
     },
     {
       "title": "Mythic Ruler",
       "imageUrl": "mythic-ruler.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17517192"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17517192",
+      "finished": false
     },
     {
       "title": "Bujin",
       "imageUrl": "bujin.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17713726"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17713726",
+      "finished": false
     },
     {
       "title": "Harpie",
       "imageUrl": "harpie.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18338835"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18338835",
+      "finished": false
     },
     {
       "title": "Ninja Dino",
       "imageUrl": "ninja-dino.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18339755"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18339755",
+      "finished": false
     },
     {
       "title": "Madolche",
       "imageUrl": "madolche.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18339074"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18339074",
+      "finished": false
     },
     {
       "title": "Battlin' Boxer",
       "imageUrl": "battlin-boxer.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18346180"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18346180",
+      "finished": false
     },
     {
       "title": "Fire Fist",
       "imageUrl": "fire-fist.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18383334"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18383334",
+      "finished": false
     },
     {
       "title": "Noble Knights",
       "imageUrl": "noble-knights.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18698398"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18698398",
+      "finished": false
     }
   ],
   "modern": [
     {
       "title": "Ninja",
       "imageUrl": "ninja.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17108237"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17108237",
+      "finished": false
     },
     {
       "title": "Monarchs",
       "imageUrl": "monarchs.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18137462"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18137462",
+      "finished": false
     },
     {
       "title": "True Draco",
-      "imageUrl": "true-draco.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17865997"
+      "imageUrl": "false-draco.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=17865997",
+      "finished": false
     },
     {
       "title": "Despia Darklord",
       "imageUrl": "despia-darklord.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18131264"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18131264",
+      "finished": false
     },
     {
       "title": "Ancient Warriors",
       "imageUrl": "ancient-warriors.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17328952"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17328952",
+      "finished": false
     },
     {
       "title": "Scareclaw",
       "imageUrl": "scareclaw.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17866182"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17866182",
+      "finished": false
     },
     {
       "title": "RDA Centurion",
       "imageUrl": "rda-centurion.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18103545"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18103545",
+      "finished": false
     },
     {
       "title": "Invoked Shaddoll",
       "imageUrl": "invoked-shaddoll.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18112195"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18112195",
+      "finished": false
     },
     {
       "title": "Witchcrafter",
       "imageUrl": "witchcrafter.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17365058"
+      "linkUrl": "https://www.duelingbook.com/deck?id=17365058",
+      "finished": false
     },
     {
       "title": "8 Axis Kaiju",
       "imageUrl": "8-axis-kaiju.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18420981"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18420981",
+      "finished": false
     },
     {
       "title": "Nekroz",
       "imageUrl": "nekroz.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18397991"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18397991",
+      "finished": false
     },
     {
       "title": "Ritual Beast",
       "imageUrl": "ritual-beast.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18417147"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18417147",
+      "finished": false
     },
     {
       "title": "Swordsoul Tenyi",
       "imageUrl": "swordsoul-tenyi.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18400260"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18400260",
+      "finished": false
     },
     {
       "title": "Mikanko",
       "imageUrl": "mikanko.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18448154"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18448154",
+      "finished": false
     },
     {
       "title": "Flame Swordsman",
       "imageUrl": "flame-swordsman.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18468860"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18468860",
+      "finished": false
     },
     {
       "title": "Voiceless Voice",
       "imageUrl": "voiceless-voice.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18473223"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18473223",
+      "finished": false
     },
     {
       "title": "Dinomorphia",
       "imageUrl": "dinomorphia.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18497344"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18497344",
+      "finished": false
     },
     {
       "title": "Floowandereeze",
       "imageUrl": "floowandereeze.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18437443"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18437443",
+      "finished": false
     },
     {
       "title": "Dragon Ruler",
       "imageUrl": "dragon-ruler.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18480762"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18480762",
+      "finished": false
     },
     {
       "title": "Dragonmaid Dracotail",
       "imageUrl": "dragonmaid-dracotail.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18542409"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18542409",
+      "finished": false
     },
     {
       "title": "Mimighoul",
       "imageUrl": "mimighoul.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18463421"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18463421",
+      "finished": false
     },
     {
       "title": "Rescue-Ace",
       "imageUrl": "rescue-ace.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18548504"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18548504",
+      "finished": false
     },
     {
       "title": "Tachyon",
       "imageUrl": "tachyon.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18541926"
+      "linkUrl": "https://www.duelingbook.com/deck?id=18541926",
+      "finished": false
     }
   ]
 }

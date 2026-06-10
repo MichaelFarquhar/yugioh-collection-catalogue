@@ -7,9 +7,10 @@ interface Props {
   alt: string
   width: number
   height: number
+  finished: boolean
 }
 
-const { src, alt, width, height } = Astro.props
+const { src, alt, width, height, finished } = Astro.props
 ---
 
 <div class="relative flex items-center justify-center overflow-hidden rounded-lg bg-gray-100/5">
@@ -23,5 +24,14 @@ const { src, alt, width, height } = Astro.props
   />
   <div class="absolute inset-0 flex items-center justify-center">
     <Icon name="mdi:cards-playing-outline" class="w-24 h-24 text-gray-500 opacity-50" />
+  </div>
+  <div
+    style="opacity: 0"
+    class="absolute bottom-0 right-0 z-60 rounded-tl-lg bg-black/85 p-1 transition-opacity duration-300 group-hover:opacity-100!"
+  >
+    <Icon
+      name={finished ? 'mdi:check-circle-outline' : 'mdi:progress-check'}
+      class={`h-6 w-6 ${finished ? 'text-green-500' : 'text-blue-500'}`}
+    />
   </div>
 </div>

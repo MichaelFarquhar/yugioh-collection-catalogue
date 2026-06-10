@@ -6,9 +6,10 @@ interface Props {
   title: string
   imageUrl: string
   linkUrl: string
+  finished: boolean
 }
 
-const { title, imageUrl, linkUrl } = Astro.props
+const { title, imageUrl, linkUrl, finished } = Astro.props
 const imagePath = `/images/decks/${imageUrl}`
 ---
 
@@ -16,7 +17,7 @@ const imagePath = `/images/decks/${imageUrl}`
   <div
     class="overflow-hidden rounded-lg border-2 border-surface group-hover:border-primary transition-all duration-300"
   >
-    <DeckCardImage src={imagePath} alt={title} width={230} height={230} />
+    <DeckCardImage src={imagePath} alt={title} width={230} height={230} finished={finished} />
   </div>
   <p class="text-center mt-2 text-text group-hover:text-primary transition-colors duration-300 text-lg">{title}</p>
 </a>
