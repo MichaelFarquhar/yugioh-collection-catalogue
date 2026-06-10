@@ -13,13 +13,16 @@ export default defineConfig({
     icon(),
     AstroPWA({
       registerType: 'autoUpdate',
+      workbox: {
+        mode: 'development',
+      },
       devOptions: {
         enabled: true,
       },
       includeAssets: ['favicon.ico', 'apple-touch-icon.png'],
       manifest: {
-        name: "Michael's Yugioh Decks",
-        description: "Michael's Yugioh Decks",
+        name: "Michael's Decks",
+        description: "Michael's Decks",
         theme_color: '#f97316',
         background_color: '#1a1a1a',
         icons: [

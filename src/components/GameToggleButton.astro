@@ -1,0 +1,21 @@
+<div
+  class="self-end sm:self-auto inline-flex items-center gap-1 rounded-full border-2 border-accent bg-background px-2 py-1 text-sm font-bold uppercase tracking-wide text-text shadow-lg hover:cursor-pointer"
+  aria-label="Select current game"
+>
+  <button
+    type="button"
+    class="rounded-full px-3 py-1 transition-colors duration-200 hover:cursor-pointer"
+    :class="currentGame === 'yugioh' ? 'bg-accent text-background' : 'text-text-secondary hover:text-primary'"
+    @click="setGame('yugioh')"
+  >
+    Yugioh
+  </button>
+  <button
+    type="button"
+    class="rounded-full px-3 py-1 transition-colors duration-200 hover:cursor-pointer"
+    :class="currentGame === 'gundam' ? 'bg-accent text-background' : 'text-text-secondary hover:text-primary'"
+    @click="setGame('gundam')"
+  >
+    Gundam
+  </button>
+</div>

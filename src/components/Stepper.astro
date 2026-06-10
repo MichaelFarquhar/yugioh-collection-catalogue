@@ -1,24 +1,38 @@
 ---
-import formats from '../data/formats.json'
+interface Category {
+  id: string
+  title: string
+}
+
+interface Props {
+  gameId: string
+  categories: Category[]
+}
+
+const { gameId, categories } = Astro.props
 ---
 
-<nav id="format-stepper" class="fixed top-[8rem] left-4 z-50 hidden lg:flex flex-col items-start gap-0 py-8 px-2">
+<nav
+  data-category-stepper
+  x-show={`currentGame === '${gameId}'`}
+  class="fixed top-32 left-4 z-50 hidden lg:flex flex-col items-start gap-0 py-8 px-2"
+>
   <div class="relative ml-2 flex h-full w-full flex-col items-start">
     {
-      formats.map((format, idx) => (
-        <div class="flex min-h-[3.5rem] flex-col items-start">
+      categories.map((category, idx) => (
+        <div class="flex min-h-14 flex-col items-start">
           {/* Dot */}
           <button
             type="button"
             class="stepper-dot relative z-10 flex w-full cursor-pointer items-center justify-start border-0 bg-transparent p-0 outline-none"
-            data-anchor={format.id}
-            aria-label={format.title}
+            data-anchor={`${gameId}-${category.id}`}
+            aria-label={category.title}
           >
-            <span class="stepper-dot-inner relative flex-shrink-0 rounded-full border-2 border-accent bg-transparent w-5 h-5 transition-shadow duration-200" />
-            <span class="ml-4 hidden whitespace-nowrap text-base font-bold text-white 2xl:inline">{format.title}</span>
+            <span class="stepper-dot-inner relative shrink-0 rounded-full border-2 border-accent bg-transparent w-5 h-5 transition-shadow duration-200" />
+            <span class="ml-4 hidden whitespace-nowrap text-base font-bold text-white 2xl:inline">{category.title}</span>
           </button>
           {/* Vertical line between dots, except after last dot */}
-          {idx < formats.length - 1 && <div class="ml-2 h-8 w-1 rounded-full bg-accent/30 pointer-events-none" />}
+          {idx < categories.length - 1 && <div class="ml-2 h-8 w-1 rounded-full bg-accent/30 pointer-events-none" />}
         </div>
       ))
     }
@@ -27,70 +41,74 @@ import formats from '../data/formats.json'
 
 <style>
   .stepper-dot-inner.active {
-    background: #f97316 !important;
-    border-color: #f97316;
-    box-shadow: 0 0 0 4px #f9741615;
+    background: var(--color-accent) !important;
+    border-color: var(--color-accent);
+    box-shadow: 0 0 0 4px color-mix(in srgb, var(--color-accent) 12%, transparent);
   }
 </style>
 
 <script is:inline>
   document.addEventListener('DOMContentLoaded', () => {
-    const dots = document.querySelectorAll('#format-stepper .stepper-dot')
-    const dotInners = document.querySelectorAll('#format-stepper .stepper-dot-inner')
-    const anchors = Array.from(dots).map((dot) => dot.dataset.anchor)
-    const sections = anchors.map((id) => document.getElementById(id))
+    document.querySelectorAll('[data-category-stepper]').forEach((stepper) => {
+      if (stepper.dataset.initialized === 'true') return
+      stepper.dataset.initialized = 'true'
 
-    // Use Intersection Observer to track which section is most in view
-    let activeIdx = 0
-    const observerOptions = {
-      root: null,
-      rootMargin: '0px',
-      threshold: Array.from({ length: 11 }, (_, i) => i / 10), // [0, 0.1, ..., 1]
-    }
-    const sectionStates = new Array(sections.length).fill(0)
+      const dots = stepper.querySelectorAll('.stepper-dot')
+      const dotInners = stepper.querySelectorAll('.stepper-dot-inner')
+      const anchors = Array.from(dots).map((dot) => dot.dataset.anchor)
+      const sections = anchors.map((id) => document.getElementById(id))
 
-    function updateActiveDot() {
-      // Find the section with the highest intersection ratio
-      let maxRatio = 0
-      let maxIdx = 0
-      for (let i = 0; i < sectionStates.length; i++) {
-        if (sectionStates[i] > maxRatio) {
-          maxRatio = sectionStates[i]
-          maxIdx = i
-        }
+      // Use Intersection Observer to track which section is most in view
+      const observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: Array.from({ length: 11 }, (_, i) => i / 10), // [0, 0.1, ..., 1]
       }
-      dotInners.forEach((dot, i) => {
-        if (i === maxIdx && maxRatio > 0) {
-          dot.classList.add('active')
-        } else {
-          dot.classList.remove('active')
+      const sectionStates = new Array(sections.length).fill(0)
+
+      function updateActiveDot() {
+        // Find the section with the highest intersection ratio
+        let maxRatio = 0
+        let maxIdx = 0
+        for (let i = 0; i < sectionStates.length; i++) {
+          if (sectionStates[i] > maxRatio) {
+            maxRatio = sectionStates[i]
+            maxIdx = i
+          }
         }
+        dotInners.forEach((dot, i) => {
+          if (i === maxIdx && maxRatio > 0) {
+            dot.classList.add('active')
+          } else {
+            dot.classList.remove('active')
+          }
+        })
+      }
+
+      const observer = new window.IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          const idx = sections.indexOf(entry.target)
+          if (idx !== -1) {
+            sectionStates[idx] = entry.intersectionRatio
+          }
+        })
+        updateActiveDot()
+      }, observerOptions)
+
+      sections.forEach((section) => {
+        if (section) observer.observe(section)
       })
-    }
 
-    const observer = new window.IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        const idx = sections.indexOf(entry.target)
-        if (idx !== -1) {
-          sectionStates[idx] = entry.intersectionRatio
-        }
-      })
-      updateActiveDot()
-    }, observerOptions)
-
-    sections.forEach((section) => {
-      if (section) observer.observe(section)
-    })
-
-    // Scroll to section on dot click
-    dots.forEach((dot, i) => {
-      dot.addEventListener('click', (e) => {
-        e.preventDefault()
-        const anchor = dot.dataset.anchor
-        const el = document.getElementById(anchor)
-        if (el) {
-          el.scrollIntoView({ behavior: 'smooth', block: 'start' })
-        }
+      // Scroll to section on dot click
+      dots.forEach((dot) => {
+        dot.addEventListener('click', (e) => {
+          e.preventDefault()
+          const anchor = dot.dataset.anchor
+          const el = document.getElementById(anchor)
+          if (el) {
+            el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+          }
+        })
       })
     })
   })

@@ -1,11 +1,50 @@
 ---
 import '../styles/global.css'
-import FormatSection from '../components/FormatSection.astro'
-import formats from '../data/formats.json'
-import decks from '../data/decks.json'
+import CategorySection from '../components/CategorySection.astro'
+import yugiohCategories from '../data/yugioh/category.json'
+import yugiohDecks from '../data/yugioh/decks.json'
+import gundamCategories from '../data/gundam/category.json'
+import gundamDecks from '../data/gundam/decks.json'
 import Stepper from '../components/Stepper.astro'
 import Header from '../components/Header.astro'
 import { pwaInfo } from 'virtual:pwa-info'
+
+interface Category {
+  id: string
+  title: string
+  image: string
+  banlist: string
+  cardPool: string
+}
+
+interface Deck {
+  title: string
+  imageUrl: string
+  linkUrl: string
+  finished: boolean
+}
+
+interface GameCatalogue {
+  id: 'yugioh' | 'gundam'
+  label: string
+  categories: Category[]
+  decks: Record<string, Deck[]>
+}
+
+const games: GameCatalogue[] = [
+  {
+    id: 'yugioh',
+    label: 'Yugioh',
+    categories: yugiohCategories,
+    decks: yugiohDecks,
+  },
+  {
+    id: 'gundam',
+    label: 'Gundam',
+    categories: gundamCategories,
+    decks: gundamDecks,
+  },
+]
 ---
 
 <html lang="en">
@@ -18,29 +57,61 @@ import { pwaInfo } from 'virtual:pwa-info'
     <link rel="mask-icon" href="/favicon.svg" color="#FFFFFF" />
     <meta name="msapplication-TileColor" content="#f97316" />
     <meta name="theme-color" content="#f97316" />
-    <title>Michael's Yugioh Decks</title>
-    <meta name="description" content="Michael's Yugioh Decks" />
+    <title>Michael's Decks</title>
+    <meta name="description" content="Michael's Decks" />
     <script src="/src/pwa.ts"></script>
     {pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} />}
+    <script is:inline>
+      document.addEventListener('alpine:init', () => {
+        Alpine.data('gameCatalogue', () => ({
+          currentGame: 'yugioh',
+          games: ['yugioh', 'gundam'],
+          init() {
+            const savedGame = window.localStorage.getItem('currentGame')
+            if (this.games.includes(savedGame)) {
+              this.currentGame = savedGame
+            }
+
+            this.$watch('currentGame', (gameId) => {
+              window.localStorage.setItem('currentGame', gameId)
+            })
+          },
+          setGame(gameId) {
+            if (this.games.includes(gameId)) {
+              this.currentGame = gameId
+            }
+          },
+        }))
+      })
+    </script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
   </head>
-  <body class="bg-background text-text">
+  <body class="bg-background text-text" x-data="gameCatalogue()" x-init="init()" :data-game="currentGame">
     <Header />
-    <Stepper />
-    <main class="container mx-auto py-8 px-4">
-      {
-        formats.map((format) => (
-          <FormatSection
-            id={format.id}
-            title={format.title}
-            image={format.image}
-            decks={decks[format.id as keyof typeof decks]}
-            isCollapsed={decks[format.id as keyof typeof decks].length === 0}
-            banlist={format.banlist}
-            cardPool={format.cardPool}
-          />
-        ))
-      }
-    </main>
+    {
+      games.map((game) => (
+        <Fragment>
+          <Stepper gameId={game.id} categories={game.categories} />
+          <main x-show={`currentGame === '${game.id}'`} x-cloak class="container mx-auto py-8 px-4">
+            {game.categories.map((category) => {
+              const categoryDecks = game.decks[category.id] ?? []
+
+              return (
+                <CategorySection
+                  id={`${game.id}-${category.id}`}
+                  gameId={game.id}
+                  title={category.title}
+                  image={category.image}
+                  decks={categoryDecks}
+                  isCollapsed={categoryDecks.length === 0}
+                  banlist={category.banlist}
+                  cardPool={category.cardPool}
+                />
+              )
+            })}
+          </main>
+        </Fragment>
+      ))
+    }
   </body>
 </html>

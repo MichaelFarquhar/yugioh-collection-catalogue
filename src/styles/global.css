@@ -10,6 +10,22 @@
   --color-text-secondary: #b3b3b3;
 }
 
+[data-game='yugioh'] {
+  --color-primary: #fdab71;
+  --color-secondary: #ffdbb8;
+  --color-accent: #f97316;
+}
+
+[data-game='gundam'] {
+  --color-primary: #93c5fd;
+  --color-secondary: #dbeafe;
+  --color-accent: #2563eb;
+}
+
+[x-cloak] {
+  display: none !important;
+}
+
 body {
   @apply bg-background text-text;
 }

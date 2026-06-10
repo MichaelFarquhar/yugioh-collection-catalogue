@@ -1,16 +1,16 @@
 ---
-import { Image } from 'astro:assets'
 import DeckCardImage from './DeckCardImage.astro'
 
 interface Props {
+  gameId: string
   title: string
   imageUrl: string
   linkUrl: string
   finished: boolean
 }
 
-const { title, imageUrl, linkUrl, finished } = Astro.props
-const imagePath = `/images/decks/${imageUrl}`
+const { gameId, title, imageUrl, linkUrl, finished } = Astro.props
+const imagePath = `/images/decks/${gameId}/${imageUrl}`
 ---
 
 <a href={linkUrl} class="group transition-all duration-300" target="_blank">
