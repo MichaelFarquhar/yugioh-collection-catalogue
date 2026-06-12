@@ -280,6 +280,13 @@
       "colors": []
     },
     {
+      "title": "Cloudian Plant",
+      "imageUrl": "cloudian-plant.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18373987",
+      "finished": false,
+      "colors": []
+    },
+    {
       "title": "Fabled Chaos",
       "imageUrl": "fabled-chaos.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18323024",
@@ -294,9 +301,23 @@
       "colors": []
     },
     {
+      "title": "Infernity",
+      "imageUrl": "infernity.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=19759770",
+      "finished": true,
+      "colors": []
+    },
+    {
       "title": "Mist Valley",
       "imageUrl": "mist-valley.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18318745",
+      "finished": false,
+      "colors": []
+    },
+    {
+      "title": "Psychic",
+      "imageUrl": "psychic.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=18567550",
       "finished": false,
       "colors": []
     },
@@ -308,20 +329,6 @@
       "colors": []
     },
     {
-      "title": "X-Saber",
-      "imageUrl": "x-saber.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=16050059",
-      "finished": false,
-      "colors": []
-    },
-    {
-      "title": "Cloudian Plant",
-      "imageUrl": "cloudian-plant.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18373987",
-      "finished": false,
-      "colors": []
-    },
-    {
       "title": "Six Samurai",
       "imageUrl": "six-samurai-tengu.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18377133",
@@ -329,9 +336,9 @@
       "colors": []
     },
     {
-      "title": "Psychic",
-      "imageUrl": "psychic.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18567550",
+      "title": "X-Saber",
+      "imageUrl": "x-saber.jpg",
+      "linkUrl": "https://www.duelingbook.com/deck?id=16050059",
       "finished": false,
       "colors": []
     }
