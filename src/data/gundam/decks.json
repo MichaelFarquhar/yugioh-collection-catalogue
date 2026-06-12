@@ -4,7 +4,10 @@
       "title": "Tekkedan/Teiwaz",
       "imageUrl": "barbatos.png",
       "linkUrl": "https://www.gundam-gcg.com/",
-      "finished": false
+      "finished": false,
+      "colors": [
+        "purple"
+      ]
     }
   ]
 }

@@ -8,6 +8,7 @@ interface Deck {
   imageUrl: string
   linkUrl: string
   finished: boolean
+  colors: string[]
 }
 
 interface Props {
@@ -70,6 +71,7 @@ const categoryImagePath = `/images/categories/${gameId}/${image}`
           imageUrl={deck.imageUrl}
           linkUrl={deck.linkUrl}
           finished={deck.finished}
+          colors={deck.colors}
         />
       ))
     }

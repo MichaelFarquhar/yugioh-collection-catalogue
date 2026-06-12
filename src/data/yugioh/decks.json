@@ -4,151 +4,176 @@
       "title": "Ben Kei OTK",
       "imageUrl": "ben-kei.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17877236",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Blue Eyes",
       "imageUrl": "blue-eyes.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18177792",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Dark Paladin",
       "imageUrl": "dark-paladin.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17195267",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Exodia",
       "imageUrl": "exodia.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17705637",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Fairy Burn",
       "imageUrl": "fairy-burn.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18335938",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Fire",
       "imageUrl": "fire.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17705615",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Phoenix Control",
       "imageUrl": "phoenix-control.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=16026040",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Gravekeeper",
       "imageUrl": "gravekeeper-goat.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17338743",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Cold Wave Monarch",
       "imageUrl": "monarch.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=16026061",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Ninja Aggro",
       "imageUrl": "ninja-aggro.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17912708",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Shinato",
       "imageUrl": "shinato.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17383992",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Warriors",
       "imageUrl": "warriors.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=16074667",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Water",
       "imageUrl": "water.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=16400255",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "XYZ",
       "imageUrl": "xyz.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17354489",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Warrior of Zera",
       "imageUrl": "warrior-of-zera.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18330371",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Zombie",
       "imageUrl": "zombie.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17397965",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Dark Necroplasmer",
       "imageUrl": "dark-necroplasmer.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18344718",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Emissary Zombie",
       "imageUrl": "emissary-zombie.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18348523",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Insect Monarchy",
       "imageUrl": "insect-monarchy.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18350550",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "King of Beasts",
       "imageUrl": "king-of-beasts.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18336716",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "PACMAN",
       "imageUrl": "pacman.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18351309",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Beastdown",
       "imageUrl": "beastdown.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18373857",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Gearfried",
       "imageUrl": "gearfried.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18369234",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Normal",
       "imageUrl": "normal.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17183904",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "The Creator",
       "imageUrl": "the-creator.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18453758",
-      "finished": false
+      "finished": false,
+      "colors": []
     }
   ],
   "perfectCircle": [
@@ -156,25 +181,29 @@
       "title": "Perfect Circle",
       "imageUrl": "perfect-circle.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18356962",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Diamond Dude Turbo",
       "imageUrl": "diamond-dude-turbo.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18357312",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Bazoo Machine",
       "imageUrl": "bazoo-machine.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18358808",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Zombie Return",
       "imageUrl": "zombie-return.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18358757",
-      "finished": false
+      "finished": false,
+      "colors": []
     }
   ],
   "edison": [
@@ -182,55 +211,64 @@
       "title": "Blackwing",
       "imageUrl": "blackwing.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18077392",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Ojama",
       "imageUrl": "ojama.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18323209",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Quickdraw Plant",
       "imageUrl": "quickdraw.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18325517",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Skull Servant",
       "imageUrl": "skull-servant.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18310554",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "TeleDAD",
       "imageUrl": "teledad.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18324794",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Chaos Relinquished",
       "imageUrl": "relinquished.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18348055",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Destiny End Dragoon",
       "imageUrl": "destiny-end-dragoon.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18356722",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Volcanic Garden",
       "imageUrl": "volcanic-garden.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18363365",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Gemini",
       "imageUrl": "gemini.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18365524",
-      "finished": false
+      "finished": false,
+      "colors": []
     }
   ],
   "tengu": [
@@ -238,55 +276,64 @@
       "title": "Agent",
       "imageUrl": "agent.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17681528",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Fabled Chaos",
       "imageUrl": "fabled-chaos.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18323024",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Hero Beat",
       "imageUrl": "hero-beat.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17713344",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Mist Valley",
       "imageUrl": "mist-valley.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18318745",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Scrap",
       "imageUrl": "scrap.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17681625",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "X-Saber",
       "imageUrl": "x-saber.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=16050059",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Cloudian Plant",
       "imageUrl": "cloudian-plant.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18373987",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Six Samurai",
       "imageUrl": "six-samurai-tengu.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18377133",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Psychic",
       "imageUrl": "psychic.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18567550",
-      "finished": false
+      "finished": false,
+      "colors": []
     }
   ],
   "hat": [
@@ -294,139 +341,162 @@
       "title": "Lightsworn",
       "imageUrl": "lightsworn.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17106511",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Constellar",
       "imageUrl": "constellar.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17108745",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Dark World",
       "imageUrl": "dark-world.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17106314",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "H.A.T",
       "imageUrl": "hat.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17175026",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Gusto",
       "imageUrl": "gusto.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17154127",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Evilswarm",
       "imageUrl": "evilswarm.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17523020",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Inzektor",
       "imageUrl": "inzektor.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17872118",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Gishki",
       "imageUrl": "gishki.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17875583",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Junk Quasar",
       "imageUrl": "junk-quasar.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18095549",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Cyber Drag Artifact",
       "imageUrl": "cyber-artifact.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17875090",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Dragunity",
       "imageUrl": "dragunity.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18287455",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Fire King",
       "imageUrl": "fire-king.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18303701",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Spellbook",
       "imageUrl": "spellbook.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17874581",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Mermail",
       "imageUrl": "mermail.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17678610",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Karakuri Geargia",
       "imageUrl": "karakuri-geargia.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17672246",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Mythic Ruler",
       "imageUrl": "mythic-ruler.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17517192",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Bujin",
       "imageUrl": "bujin.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17713726",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Harpie",
       "imageUrl": "harpie.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18338835",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Ninja Dino",
       "imageUrl": "ninja-dino.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18339755",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Madolche",
       "imageUrl": "madolche.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18339074",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Battlin' Boxer",
       "imageUrl": "battlin-boxer.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18346180",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Fire Fist",
       "imageUrl": "fire-fist.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18383334",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Noble Knights",
       "imageUrl": "noble-knights.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18698398",
-      "finished": false
+      "finished": false,
+      "colors": []
     }
   ],
   "modern": [
@@ -434,139 +504,162 @@
       "title": "Ninja",
       "imageUrl": "ninja.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17108237",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Monarchs",
       "imageUrl": "monarchs.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18137462",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "True Draco",
       "imageUrl": "true-draco.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17865997",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Despia Darklord",
       "imageUrl": "despia-darklord.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18131264",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Ancient Warriors",
       "imageUrl": "ancient-warriors.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17328952",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Scareclaw",
       "imageUrl": "scareclaw.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17866182",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "RDA Centurion",
       "imageUrl": "rda-centurion.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18103545",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Invoked Shaddoll",
       "imageUrl": "invoked-shaddoll.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18112195",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Witchcrafter",
       "imageUrl": "witchcrafter.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17365058",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "8 Axis Kaiju",
       "imageUrl": "8-axis-kaiju.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18420981",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Nekroz",
       "imageUrl": "nekroz.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18397991",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Ritual Beast",
       "imageUrl": "ritual-beast.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18417147",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Swordsoul Tenyi",
       "imageUrl": "swordsoul-tenyi.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18400260",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Mikanko",
       "imageUrl": "mikanko.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18448154",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Flame Swordsman",
       "imageUrl": "flame-swordsman.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18468860",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Voiceless Voice",
       "imageUrl": "voiceless-voice.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18473223",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Dinomorphia",
       "imageUrl": "dinomorphia.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18497344",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Floowandereeze",
       "imageUrl": "floowandereeze.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18437443",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Dragon Ruler",
       "imageUrl": "dragon-ruler.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18480762",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Dragonmaid Dracotail",
       "imageUrl": "dragonmaid-dracotail.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18542409",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Mimighoul",
       "imageUrl": "mimighoul.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18463421",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Rescue-Ace",
       "imageUrl": "rescue-ace.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18548504",
-      "finished": false
+      "finished": false,
+      "colors": []
     },
     {
       "title": "Tachyon",
       "imageUrl": "tachyon.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18541926",
-      "finished": false
+      "finished": false,
+      "colors": []
     }
   ]
 }
