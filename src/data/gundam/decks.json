@@ -1,37 +1,37 @@
 {
   "standard": [
     {
-      "title": "Tekkedan/Teiwaz",
-      "imageUrl": "barbatos.png",
-      "linkUrl": "https://www.gundam-gcg.com/",
+      "title": "Tekkadan/Teiwaz",
+      "imageUrl": "tekkadan.webp",
+      "linkUrl": "https://exburst.dev/gundam/deck/264643",
       "finished": false,
       "colors": ["purple"]
     },
     {
       "title": "Vulture X",
-      "imageUrl": "barbatos.png",
-      "linkUrl": "https://www.gundam-gcg.com/",
+      "imageUrl": "vulturex.webp",
+      "linkUrl": "https://exburst.dev/gundam/deck/265270",
       "finished": false,
       "colors": ["purple"]
     },
     {
       "title": "Clan Control",
-      "imageUrl": "barbatos.png",
-      "linkUrl": "https://www.gundam-gcg.com/",
+      "imageUrl": "clancontrol.webp",
+      "linkUrl": "https://exburst.dev/gundam/deck/266242",
       "finished": false,
       "colors": ["red", "green"]
     },
     {
       "title": "Vagan",
-      "imageUrl": "barbatos.png",
-      "linkUrl": "https://www.gundam-gcg.com/",
+      "imageUrl": "vagan.webp",
+      "linkUrl": "https://exburst.dev/gundam/deck/265272",
       "finished": false,
       "colors": ["purple"]
     },
     {
       "title": "Mafty Jupritis",
-      "imageUrl": "barbatos.png",
-      "linkUrl": "https://www.gundam-gcg.com/",
+      "imageUrl": "maftyjupritis.webp",
+      "linkUrl": "https://exburst.dev/gundam/deck/265238",
       "finished": false,
       "colors": ["blue", "red"]
     }
