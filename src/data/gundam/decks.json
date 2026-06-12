@@ -5,9 +5,35 @@
       "imageUrl": "barbatos.png",
       "linkUrl": "https://www.gundam-gcg.com/",
       "finished": false,
-      "colors": [
-        "purple"
-      ]
+      "colors": ["purple"]
+    },
+    {
+      "title": "Vulture X",
+      "imageUrl": "barbatos.png",
+      "linkUrl": "https://www.gundam-gcg.com/",
+      "finished": false,
+      "colors": ["purple"]
+    },
+    {
+      "title": "Clan Control",
+      "imageUrl": "barbatos.png",
+      "linkUrl": "https://www.gundam-gcg.com/",
+      "finished": false,
+      "colors": ["red", "green"]
+    },
+    {
+      "title": "Vagan",
+      "imageUrl": "barbatos.png",
+      "linkUrl": "https://www.gundam-gcg.com/",
+      "finished": false,
+      "colors": ["purple"]
+    },
+    {
+      "title": "Mafty Jupritis",
+      "imageUrl": "barbatos.png",
+      "linkUrl": "https://www.gundam-gcg.com/",
+      "finished": false,
+      "colors": ["blue", "red"]
     }
   ]
 }

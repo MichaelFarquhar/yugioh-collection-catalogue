@@ -28,10 +28,7 @@ const hasColors = colorValues.length > 0
     <DeckCardImage src={imagePath} alt={title} width={230} height={230} finished={finished} />
   </div>
   <div
-    class:list={[
-      'mt-2 flex items-center text-lg text-text transition-colors duration-300 group-hover:text-primary',
-      hasColors ? 'justify-between gap-2' : 'justify-center text-center',
-    ]}
+    class="mt-2 flex items-center text-lg text-text transition-colors duration-300 group-hover:text-primary justify-center text-center gap-2"
   >
     {
       hasColors && (
