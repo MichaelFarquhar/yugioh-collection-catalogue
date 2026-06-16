@@ -11,56 +11,56 @@
       "title": "Blue Eyes",
       "imageUrl": "blue-eyes.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18177792",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
       "title": "Dark Paladin",
       "imageUrl": "dark-paladin.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17195267",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
       "title": "Exodia",
       "imageUrl": "exodia.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17705637",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
       "title": "Fairy Burn",
       "imageUrl": "fairy-burn.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18335938",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
       "title": "Fire",
       "imageUrl": "fire.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17705615",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
       "title": "Phoenix Control",
       "imageUrl": "phoenix-control.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=16026040",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
       "title": "Gravekeeper",
       "imageUrl": "gravekeeper-goat.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17338743",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
       "title": "Cold Wave Monarch",
       "imageUrl": "monarch.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=16026061",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
@@ -81,14 +81,14 @@
       "title": "Warriors",
       "imageUrl": "warriors.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=16074667",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
       "title": "Water",
       "imageUrl": "water.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=16400255",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
@@ -109,14 +109,14 @@
       "title": "Zombie",
       "imageUrl": "zombie.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17397965",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
       "title": "Dark Necroplasmer",
       "imageUrl": "dark-necroplasmer.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18344718",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
