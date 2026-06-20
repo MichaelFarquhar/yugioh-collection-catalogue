@@ -29,6 +29,13 @@
       "colors": ["purple"]
     },
     {
+      "title": "Zaft Minerva",
+      "imageUrl": "zaft-minerva.webp",
+      "linkUrl": "https://exburst.dev/gundam/deckbuilder/271896",
+      "finished": false,
+      "colors": ["purple", "red"]
+    },
+    {
       "title": "Mafty Jupritis",
       "imageUrl": "maftyjupritis.webp",
       "linkUrl": "https://exburst.dev/gundam/deck/265238",
