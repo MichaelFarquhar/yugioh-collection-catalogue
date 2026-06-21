@@ -5,14 +5,14 @@
       "imageUrl": "tekkadan.webp",
       "linkUrl": "https://exburst.dev/gundam/deck/264643",
       "finished": false,
-      "colors": ["purple"]
+      "colors": ["purple", "white"]
     },
     {
       "title": "Vulture X",
       "imageUrl": "vulturex.webp",
       "linkUrl": "https://exburst.dev/gundam/deck/265270",
       "finished": false,
-      "colors": ["purple"]
+      "colors": ["purple", "white"]
     },
     {
       "title": "Clan Control",
@@ -36,11 +36,39 @@
       "colors": ["purple", "red"]
     },
     {
-      "title": "Mafty Jupritis",
-      "imageUrl": "maftyjupritis.webp",
+      "title": "The-O Psycho",
+      "imageUrl": "the-o-psycho.webp",
+      "linkUrl": "https://exburst.dev/gundam/deck/272746",
+      "finished": false,
+      "colors": ["blue"]
+    },
+    {
+      "title": "Mafty Neo Zeon",
+      "imageUrl": "mafty-neo-zeon.webp",
       "linkUrl": "https://exburst.dev/gundam/deck/265238",
       "finished": false,
-      "colors": ["blue", "red"]
+      "colors": ["red"]
+    },
+    {
+      "title": "Epyon Wing",
+      "imageUrl": "epyon-wing-shenlong.webp",
+      "linkUrl": "https://exburst.dev/gundam/deck/272662",
+      "finished": false,
+      "colors": ["green", "blue"]
+    },
+    {
+      "title": "Exia Trans-Am",
+      "imageUrl": "exia-trans-am.webp",
+      "linkUrl": "https://exburst.dev/gundam/deck/272363",
+      "finished": false,
+      "colors": ["green", "purple"]
+    },
+    {
+      "title": "Ɐ Banagher",
+      "imageUrl": "turn-a-banagher.webp",
+      "linkUrl": "https://exburst.dev/gundam/deck/272249",
+      "finished": false,
+      "colors": ["white", "blue"]
     }
   ]
 }

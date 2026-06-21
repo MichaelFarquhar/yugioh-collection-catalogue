@@ -7,13 +7,6 @@
     "cardPool": "https://formatlibrary.com/cards?format=goat"
   },
   {
-    "id": "perfectCircle",
-    "title": "P. Circle",
-    "image": "perfect-circle.webp",
-    "banlist": "https://cardcluster.com/format/tcg/september-2007",
-    "cardPool": "https://formatlibrary.com/cards?format=perfect-circle"
-  },
-  {
     "id": "edison",
     "title": "Edison",
     "image": "edison.webp",
