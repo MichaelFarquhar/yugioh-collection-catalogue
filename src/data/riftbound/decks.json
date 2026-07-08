@@ -1,0 +1,18 @@
+{
+  "standard": [
+    {
+      "title": "Rek'Sai",
+      "imageUrl": "reksai.webp",
+      "linkUrl": "https://piltoverarchive.com/decks/view/649e5355-3647-4e8d-b269-c0b22f857552",
+      "finished": false,
+      "colors": ["fury", "order"]
+    },
+    {
+      "title": "Jax",
+      "imageUrl": "jax.webp",
+      "linkUrl": "https://piltoverarchive.com/decks/view/264bcd48-2700-408b-b498-3e7fa068c1eb",
+      "finished": false,
+      "colors": ["calm", "body"]
+    }
+  ]
+}

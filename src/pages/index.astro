@@ -5,6 +5,8 @@ import yugiohCategories from '../data/yugioh/category.json'
 import yugiohDecks from '../data/yugioh/decks.json'
 import gundamCategories from '../data/gundam/category.json'
 import gundamDecks from '../data/gundam/decks.json'
+import riftboundCategories from '../data/riftbound/category.json'
+import riftboundDecks from '../data/riftbound/decks.json'
 import Stepper from '../components/Stepper.astro'
 import Header from '../components/Header.astro'
 import { pwaInfo } from 'virtual:pwa-info'
@@ -26,7 +28,7 @@ interface Deck {
 }
 
 interface GameCatalogue {
-  id: 'yugioh' | 'gundam'
+  id: 'yugioh' | 'gundam' | 'riftbound'
   label: string
   categories: Category[]
   decks: Record<string, Deck[]>
@@ -45,6 +47,12 @@ const games: GameCatalogue[] = [
     categories: gundamCategories,
     decks: gundamDecks,
   },
+  {
+    id: 'riftbound',
+    label: 'Riftbound',
+    categories: riftboundCategories,
+    decks: riftboundDecks,
+  },
 ]
 ---
 
@@ -56,8 +64,8 @@ const games: GameCatalogue[] = [
     <meta name="generator" content={Astro.generator} />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="mask-icon" href="/favicon.svg" color="#FFFFFF" />
-    <meta name="msapplication-TileColor" content="#f97316" />
-    <meta name="theme-color" content="#f97316" />
+    <meta name="msapplication-TileColor" content="#16a34a" />
+    <meta name="theme-color" content="#16a34a" />
     <title>Michael's Decks</title>
     <meta name="description" content="Michael's Decks" />
     <script src="/src/pwa.ts"></script>
@@ -66,7 +74,7 @@ const games: GameCatalogue[] = [
       document.addEventListener('alpine:init', () => {
         Alpine.data('gameCatalogue', () => ({
           currentGame: 'yugioh',
-          games: ['yugioh', 'gundam'],
+          games: ['yugioh', 'gundam', 'riftbound'],
           init() {
             const savedGame = window.localStorage.getItem('currentGame')
             if (this.games.includes(savedGame)) {

@@ -23,7 +23,7 @@ export default defineConfig({
       manifest: {
         name: "Michael's Decks",
         description: "Michael's Decks",
-        theme_color: '#f97316',
+        theme_color: '#16a34a',
         background_color: '#1a1a1a',
         icons: [
           { src: '/favicon.ico', sizes: '48x48', type: 'image/x-icon' },

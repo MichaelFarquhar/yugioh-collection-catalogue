@@ -1,9 +1,9 @@
 @import 'tailwindcss';
 
 @theme {
-  --color-primary: #fdab71;
-  --color-secondary: #ffdbb8;
-  --color-accent: #f97316;
+  --color-primary: #86efac;
+  --color-secondary: #dcfce7;
+  --color-accent: #16a34a;
   --color-background: #1a1a1a;
   --color-surface: #2a2a2a;
   --color-text: #ffffff;
@@ -11,15 +11,21 @@
 }
 
 [data-game='yugioh'] {
-  --color-primary: #fdab71;
-  --color-secondary: #ffdbb8;
-  --color-accent: #f97316;
+  --color-primary: #86efac;
+  --color-secondary: #dcfce7;
+  --color-accent: #16a34a;
 }
 
 [data-game='gundam'] {
   --color-primary: #93c5fd;
   --color-secondary: #dbeafe;
   --color-accent: #2563eb;
+}
+
+[data-game='riftbound'] {
+  --color-primary: #fdab71;
+  --color-secondary: #ffdbb8;
+  --color-accent: #f97316;
 }
 
 [x-cloak] {
