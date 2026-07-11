@@ -4,7 +4,7 @@
       "title": "Ben Kei OTK",
       "imageUrl": "ben-kei.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17877236",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
@@ -67,14 +67,14 @@
       "title": "Ninja Aggro",
       "imageUrl": "ninja-aggro.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17912708",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
       "title": "Shinato",
       "imageUrl": "shinato.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17383992",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
@@ -95,14 +95,14 @@
       "title": "XYZ",
       "imageUrl": "xyz.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17354489",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
       "title": "Warrior of Zera",
       "imageUrl": "warrior-of-zera.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18330371",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
@@ -123,56 +123,56 @@
       "title": "Emissary Zombie",
       "imageUrl": "emissary-zombie.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18348523",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
       "title": "Insect Monarchy",
       "imageUrl": "insect-monarchy.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18350550",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
       "title": "King of Beasts",
       "imageUrl": "king-of-beasts.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18336716",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
       "title": "PACMAN",
       "imageUrl": "pacman.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18351309",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
       "title": "Beastdown",
       "imageUrl": "beastdown.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18373857",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
       "title": "Gearfried",
       "imageUrl": "gearfried.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18369234",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
       "title": "Normal",
       "imageUrl": "normal.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17183904",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
       "title": "The Creator",
       "imageUrl": "the-creator.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18453758",
-      "finished": false,
+      "finished": true,
       "colors": []
     }
   ],
