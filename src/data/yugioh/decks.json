@@ -181,59 +181,60 @@
       "title": "Blackwing",
       "imageUrl": "blackwing.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18077392",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
       "title": "Chaos Relinquished",
       "imageUrl": "relinquished.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18348055",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
       "title": "Destiny End Dragoon",
       "imageUrl": "destiny-end-dragoon.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18356722",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
       "title": "Gemini",
       "imageUrl": "gemini.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18365524",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
       "title": "Quickdraw Plant",
       "imageUrl": "quickdraw.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18325517",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
       "title": "Spellcaster",
       "imageUrl": "spellcaster.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=20191522",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
       "title": "TeleDAD",
       "imageUrl": "teledad.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18324794",
-      "finished": false,
+      "finished": true,
       "colors": []
     },
     {
       "title": "Volcanic Garden",
       "imageUrl": "volcanic-garden.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18363365",
-      "finished": false,
+      "finished": true,
       "colors": []
     }
   ],
+
   "tengu": [
     {
       "title": "Agent",
