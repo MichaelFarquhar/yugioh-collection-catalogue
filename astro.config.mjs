@@ -13,11 +13,10 @@ export default defineConfig({
     icon(),
     AstroPWA({
       registerType: 'autoUpdate',
-      workbox: {
-        mode: 'development',
-      },
+      // Keep PWA off during `astro dev` so the service worker doesn't
+      // break HMR / force hard refreshes. It still runs on build/preview.
       devOptions: {
-        enabled: true,
+        enabled: false,
       },
       includeAssets: ['favicon.ico', 'apple-touch-icon.png'],
       manifest: {
