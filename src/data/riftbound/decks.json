@@ -4,15 +4,36 @@
       "title": "Rek'Sai",
       "imageUrl": "reksai.webp",
       "linkUrl": "https://piltoverarchive.com/decks/view/649e5355-3647-4e8d-b269-c0b22f857552",
-      "finished": false,
+      "finished": true,
       "colors": ["fury", "order"]
     },
     {
-      "title": "Jax",
-      "imageUrl": "jax.webp",
-      "linkUrl": "https://piltoverarchive.com/decks/view/264bcd48-2700-408b-b498-3e7fa068c1eb",
+      "title": "Pyke",
+      "imageUrl": "pyke.webp",
+      "linkUrl": "https://piltoverarchive.com/decks/view/9c28ebf6-8aea-4292-a594-8abe3dc1ab92",
+      "finished": true,
+      "colors": ["fury", "chaos"]
+    },
+    {
+      "title": "Viktor",
+      "imageUrl": "viktor.webp",
+      "linkUrl": "https://piltoverarchive.com/decks/view/6c6d40fa-62c6-407f-bac3-f06f461d45fa",
+      "finished": true,
+      "colors": ["mind", "order"]
+    },
+    {
+      "title": "Akali",
+      "imageUrl": "akali.webp",
+      "linkUrl": "https://piltoverarchive.com/decks/view/786eefef-2c1c-4fa7-9b7c-e54869fdbd90",
+      "finished": true,
+      "colors": ["fury", "calm"]
+    },
+    {
+      "title": "Jayce",
+      "imageUrl": "jayce.webp",
+      "linkUrl": "https://piltoverarchive.com/decks/view/3618ee56-19a8-447a-a4a6-41137336c024",
       "finished": false,
-      "colors": ["calm", "body"]
+      "colors": ["mind", "body"]
     }
   ]
 }
