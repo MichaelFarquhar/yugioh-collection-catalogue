@@ -134,20 +134,6 @@
       "colors": []
     },
     {
-      "title": "King of Beasts",
-      "imageUrl": "king-of-beasts.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18336716",
-      "finished": true,
-      "colors": []
-    },
-    {
-      "title": "PACMAN",
-      "imageUrl": "pacman.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18351309",
-      "finished": true,
-      "colors": []
-    },
-    {
       "title": "Beastdown",
       "imageUrl": "beastdown.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18373857",
@@ -158,13 +144,6 @@
       "title": "Gearfried",
       "imageUrl": "gearfried.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18369234",
-      "finished": true,
-      "colors": []
-    },
-    {
-      "title": "Normal",
-      "imageUrl": "normal.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17183904",
       "finished": true,
       "colors": []
     },
@@ -181,13 +160,6 @@
       "title": "Blackwing",
       "imageUrl": "blackwing.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18077392",
-      "finished": true,
-      "colors": []
-    },
-    {
-      "title": "Chaos Relinquished",
-      "imageUrl": "relinquished.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18348055",
       "finished": true,
       "colors": []
     },
@@ -223,13 +195,6 @@
       "title": "TeleDAD",
       "imageUrl": "teledad.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18324794",
-      "finished": true,
-      "colors": []
-    },
-    {
-      "title": "Volcanic Garden",
-      "imageUrl": "volcanic-garden.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18363365",
       "finished": true,
       "colors": []
     }
