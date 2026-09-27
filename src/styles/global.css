@@ -28,6 +28,12 @@
   --color-accent: #f97316;
 }
 
+[data-game='digimon'] {
+  --color-primary: #d8b4fe;
+  --color-secondary: #f3e8ff;
+  --color-accent: #9333ea;
+}
+
 [x-cloak] {
   display: none !important;
 }

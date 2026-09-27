@@ -3,7 +3,7 @@
     "id": "standard",
     "title": "Standard",
     "image": "standard.webp",
-    "banlist": "",
+    "banlist": "https://riftbound.gg/rules/banned-cards/",
     "cardPool": "https://piltoverarchive.com/cards"
   }
 ]

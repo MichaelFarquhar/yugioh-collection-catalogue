@@ -1,0 +1,9 @@
+[
+  {
+    "id": "standard",
+    "title": "Standard",
+    "image": "standard.jpg",
+    "banlist": "https://digimoncard.io/restricted-list",
+    "cardPool": "https://digimoncard.io/card-database?sort=name&sortdirection=asc"
+  }
+]

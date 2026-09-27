@@ -7,6 +7,8 @@ import gundamCategories from '../data/gundam/category.json'
 import gundamDecks from '../data/gundam/decks.json'
 import riftboundCategories from '../data/riftbound/category.json'
 import riftboundDecks from '../data/riftbound/decks.json'
+import digimonCategories from '../data/digimon/category.json'
+import digimonDecks from '../data/digimon/decks.json'
 import Stepper from '../components/Stepper.astro'
 import Header from '../components/Header.astro'
 import { pwaInfo } from 'virtual:pwa-info'
@@ -28,7 +30,7 @@ interface Deck {
 }
 
 interface GameCatalogue {
-  id: 'yugioh' | 'gundam' | 'riftbound'
+  id: 'yugioh' | 'gundam' | 'riftbound' | 'digimon'
   label: string
   categories: Category[]
   decks: Record<string, Deck[]>
@@ -53,6 +55,12 @@ const games: GameCatalogue[] = [
     categories: riftboundCategories,
     decks: riftboundDecks,
   },
+  {
+    id: 'digimon',
+    label: 'Digimon',
+    categories: digimonCategories,
+    decks: digimonDecks,
+  },
 ]
 ---
 
@@ -74,7 +82,7 @@ const games: GameCatalogue[] = [
       document.addEventListener('alpine:init', () => {
         Alpine.data('gameCatalogue', () => ({
           currentGame: 'yugioh',
-          games: ['yugioh', 'gundam', 'riftbound'],
+          games: ['yugioh', 'gundam', 'riftbound', 'digimon'],
           init() {
             const savedGame = window.localStorage.getItem('currentGame')
             if (this.games.includes(savedGame)) {
