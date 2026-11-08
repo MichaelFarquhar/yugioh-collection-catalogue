@@ -8,13 +8,6 @@
       "colors": ["fury", "order"]
     },
     {
-      "title": "Pyke",
-      "imageUrl": "pyke.webp",
-      "linkUrl": "https://piltoverarchive.com/decks/view/9c28ebf6-8aea-4292-a594-8abe3dc1ab92",
-      "finished": true,
-      "colors": ["fury", "chaos"]
-    },
-    {
       "title": "Viktor",
       "imageUrl": "viktor.webp",
       "linkUrl": "https://piltoverarchive.com/decks/view/6c6d40fa-62c6-407f-bac3-f06f461d45fa",

@@ -1,20 +1,6 @@
 {
   "goat": [
-    {
-      "title": "Ben Kei OTK",
-      "imageUrl": "ben-kei.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17877236",
-      "finished": true,
-      "colors": []
-    },
-    {
-      "title": "Blue Eyes",
-      "imageUrl": "blue-eyes.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18177792",
-      "finished": true,
-      "colors": []
-    },
-    {
+{
       "title": "Dark Paladin",
       "imageUrl": "dark-paladin.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17195267",
@@ -63,14 +49,7 @@
       "finished": true,
       "colors": []
     },
-    {
-      "title": "Ninja Aggro",
-      "imageUrl": "ninja-aggro.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17912708",
-      "finished": true,
-      "colors": []
-    },
-    {
+{
       "title": "Shinato",
       "imageUrl": "shinato.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17383992",
@@ -134,23 +113,9 @@
       "colors": []
     },
     {
-      "title": "Beastdown",
-      "imageUrl": "beastdown.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18373857",
-      "finished": true,
-      "colors": []
-    },
-    {
       "title": "Gearfried",
       "imageUrl": "gearfried.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18369234",
-      "finished": true,
-      "colors": []
-    },
-    {
-      "title": "The Creator",
-      "imageUrl": "the-creator.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18453758",
       "finished": true,
       "colors": []
     }
@@ -202,20 +167,6 @@
 
   "tengu": [
     {
-      "title": "Agent",
-      "imageUrl": "agent.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17681528",
-      "finished": true,
-      "colors": []
-    },
-    {
-      "title": "Cloudian Plant",
-      "imageUrl": "cloudian-plant.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18373987",
-      "finished": true,
-      "colors": []
-    },
-    {
       "title": "Fabled Chaos",
       "imageUrl": "fabled-chaos.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18323024",
@@ -223,23 +174,9 @@
       "colors": []
     },
     {
-      "title": "Hero Beat",
-      "imageUrl": "hero-beat.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17713344",
-      "finished": true,
-      "colors": []
-    },
-    {
       "title": "Infernity",
       "imageUrl": "infernity.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=19759770",
-      "finished": true,
-      "colors": []
-    },
-    {
-      "title": "Mist Valley",
-      "imageUrl": "mist-valley.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18318745",
       "finished": true,
       "colors": []
     },
@@ -274,27 +211,13 @@
   ],
   "hat": [
     {
-      "title": "Bujin",
-      "imageUrl": "bujin.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17713726",
-      "finished": false,
-      "colors": []
-    },
-    {
       "title": "Constellar",
       "imageUrl": "constellar.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17108745",
       "finished": false,
       "colors": []
     },
-    {
-      "title": "Cyber Drag Artifact",
-      "imageUrl": "cyber-artifact.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17875090",
-      "finished": false,
-      "colors": []
-    },
-    {
+{
       "title": "Dark World",
       "imageUrl": "dark-world.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17106314",
@@ -337,27 +260,13 @@
       "colors": []
     },
     {
-      "title": "H.A.T",
-      "imageUrl": "hat.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17175026",
-      "finished": false,
-      "colors": []
-    },
-    {
       "title": "Harpie",
       "imageUrl": "harpie.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18338835",
       "finished": false,
       "colors": []
     },
-    {
-      "title": "Inzektor",
-      "imageUrl": "inzektor.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17872118",
-      "finished": false,
-      "colors": []
-    },
-    {
+{
       "title": "Junk Quasar",
       "imageUrl": "junk-quasar.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18095549",
@@ -392,14 +301,7 @@
       "finished": false,
       "colors": []
     },
-    {
-      "title": "Mermail",
-      "imageUrl": "mermail.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=17678610",
-      "finished": false,
-      "colors": []
-    },
-    {
+{
       "title": "Mythic Ruler",
       "imageUrl": "mythic-ruler.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=17517192",
@@ -443,14 +345,7 @@
       "finished": false,
       "colors": []
     },
-    {
-      "title": "Dragonmaid Dracotail",
-      "imageUrl": "dragonmaid-dracotail.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18542409",
-      "finished": false,
-      "colors": []
-    },
-    {
+{
       "title": "Dragon Ruler",
       "imageUrl": "dragon-ruler.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18480762",
@@ -464,14 +359,7 @@
       "finished": false,
       "colors": []
     },
-    {
-      "title": "Invoked Shaddoll",
-      "imageUrl": "invoked-shaddoll.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18112195",
-      "finished": false,
-      "colors": []
-    },
-    {
+{
       "title": "Mikanko",
       "imageUrl": "mikanko.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18448154",
@@ -513,21 +401,7 @@
       "finished": false,
       "colors": []
     },
-    {
-      "title": "Sky Striker",
-      "imageUrl": "sky-striker.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=20295944",
-      "finished": false,
-      "colors": []
-    },
-    {
-      "title": "Swordsoul Tenyi",
-      "imageUrl": "swordsoul-tenyi.jpg",
-      "linkUrl": "https://www.duelingbook.com/deck?id=18400260",
-      "finished": false,
-      "colors": []
-    },
-    {
+{
       "title": "Tachyon",
       "imageUrl": "tachyon.jpg",
       "linkUrl": "https://www.duelingbook.com/deck?id=18541926",

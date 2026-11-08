@@ -1,11 +1,116 @@
 {
   "standard": [
     {
-      "title": "NSo",
+      "title": "Bagra Army",
+      "imageUrl": "bagra-army.webp",
+      "linkUrl": "https://digimoncard.io/deck/bagra-army-166267",
+      "finished": false,
+      "colors": []
+    },
+    {
+      "title": "Ex Maquinamon",
+      "imageUrl": "ex-maquinamon.webp",
+      "linkUrl": "https://digimoncard.io/deck/exmaquinamon-166707",
+      "finished": false,
+      "colors": []
+    },
+    {
+      "title": "Galacticmon",
+      "imageUrl": "galacticmon.webp",
+      "linkUrl": "https://digimoncard.io/deck/galactimon-167802",
+      "finished": false,
+      "colors": []
+    },
+    {
+      "title": "Heavymetaldramon",
+      "imageUrl": "heavymetaldramon.webp",
+      "linkUrl": "https://digimoncard.io/deck/heavymetaldramon-166891",
+      "finished": false,
+      "colors": []
+    },
+    {
+      "title": "Ice Snow",
+      "imageUrl": "ice-snow.webp",
+      "linkUrl": "https://digimoncard.io/deck/ice-snow-167930",
+      "finished": false,
+      "colors": []
+    },
+    {
+      "title": "Jesmon",
+      "imageUrl": "jesmon.webp",
+      "linkUrl": "https://digimoncard.io/deck/jesmon-168408",
+      "finished": false,
+      "colors": []
+    },
+    {
+      "title": "Metal Empire",
+      "imageUrl": "metal-empire.webp",
+      "linkUrl": "https://digimoncard.io/deck/metal-empire-167800",
+      "finished": false,
+      "colors": []
+    },
+    {
+      "title": "Necromon",
+      "imageUrl": "necromon.webp",
+      "linkUrl": "https://digimoncard.io/deck/necromon-ghosts-166647",
+      "finished": false,
+      "colors": []
+    },
+    {
+      "title": "Nso",
       "imageUrl": "nso.webp",
       "linkUrl": "https://digimoncard.io/deck/nso-budget-165845",
       "finished": false,
-      "colors": ["purple"]
+      "colors": []
+    },
+    {
+      "title": "Pulsemon",
+      "imageUrl": "pulsemon.webp",
+      "linkUrl": "https://digimoncard.io/deck/pulsemon-wip-170042",
+      "finished": false,
+      "colors": []
+    },
+    {
+      "title": "Puppets",
+      "imageUrl": "puppets.webp",
+      "linkUrl": "https://digimoncard.io/deck/puppets-budget-168319",
+      "finished": false,
+      "colors": []
+    },
+    {
+      "title": "Royal Base",
+      "imageUrl": "royal-base.webp",
+      "linkUrl": "https://digimoncard.io/deck/royal-base-166893",
+      "finished": false,
+      "colors": []
+    },
+    {
+      "title": "Saiyu Warriors",
+      "imageUrl": "saiyu-warriors.webp",
+      "linkUrl": "https://digimoncard.io/deck/saiyu-warriors-167933",
+      "finished": false,
+      "colors": []
+    },
+    {
+      "title": "Seekers",
+      "imageUrl": "seekers.webp",
+      "linkUrl": "https://digimoncard.io/deck/seekers-167180",
+      "finished": false,
+      "colors": []
+    },
+    {
+      "title": "Wing Guardians",
+      "imageUrl": "wing-guardians.webp",
+      "linkUrl": "https://digimoncard.io/deck/wing-guardians-166269",
+      "finished": false,
+      "colors": []
+    },
+    {
+      "title": "Yellow Hybrid",
+      "imageUrl": "yellow-hybrid.webp",
+      "linkUrl": "https://digimoncard.io/deck/light-hybrid-wip-169944",
+      "finished": false,
+      "colors": []
     }
   ]
 }
